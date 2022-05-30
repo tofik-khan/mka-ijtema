@@ -6,59 +6,24 @@ import styles from "../styles/InfoContainer.module.css";
 
 export default function InfoContainer() {
   return (
-    <div className="infoContainer my-3">
+    <div className="infoContainer my-5">
       <Container>
-        <Row className="justify-content-center">
-          <Col sm={12} xl={6}>
-            <Card>
-              <Card.Header
-                as="h2"
-                className={styles.infoContainerTitle + " text-center"}
-              >
-                Information
-              </Card.Header>
-              <Card.Body>
-                <Card.Title
-                  as="h3"
-                  className={styles.infoContainerLabel + " mx-5"}
-                >
-                  Theme
-                </Card.Title>
-                <Card.Text>
-                  <blockquote
-                    className={styles.infoContainerTextItalic + " text-center"}
-                  >
-                    Living Connection with Allah
-                  </blockquote>
-                </Card.Text>
-                <Card.Title
-                  as="h3"
-                  className={styles.infoContainerLabel + " mx-5"}
-                >
-                  Dates
-                </Card.Title>
-                <Card.Text>
-                  <blockquote
-                    className={styles.infoContainerTextRegular + " text-center"}
-                  >
-                    August 19<sup>th</sup> - 21<sup>st</sup> 2022
-                  </blockquote>
-                </Card.Text>
-                <Card.Title
-                  as="h3"
-                  className={styles.infoContainerLabel + " mx-5"}
-                >
-                  Venue
-                </Card.Title>
-                <Card.Text>
-                  <blockquote
-                    className={styles.infoContainerTextRegular + " text-center"}
-                  >
-                    Masjid Bait-ur-Rehman Mosque, MD
-                  </blockquote>
-                </Card.Text>
-              </Card.Body>
-            </Card>
+        <Row className="justify-content-center text-center">
+          <Col sm={12} md={4} className="my-3">
+            <h3 className={styles.infoContainerLabel}>Theme</h3>
+            <div className={styles.infoContainerTextItalic}>
+              Living Connection with Allah
+            </div>
+          </Col>
+          <Col sm={12} md={4} className="my-3">
+            <h3 className={styles.infoContainerLabel}>Dates</h3>
+            <div className={styles.infoContainerTextItalic}>Aug 19-21 2022</div>
+          </Col>
+          <Col sm={12} md={4} className="my-3">
+            <h3 className={styles.infoContainerLabel}>Venue</h3>
+            <div className={styles.infoContainerTextItalic}>
+              Bait-ur-Rehman Mosque, MD
+            </div>
           </Col>
         </Row>
       </Container>

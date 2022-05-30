@@ -1,0 +1,14 @@
+.registrionCtaContainer {
+  background-color: #fef7ec;
+}
+
+.title {
+  font-family: "Noto Serif";
+  font-size: 36px;
+}
+
+.content {
+  font-size: 28px;
+  font-style: italic;
+  font-family: serif;
+}

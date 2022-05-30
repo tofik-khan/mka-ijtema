@@ -5,6 +5,8 @@ import React from "react";
 import Nav from "../components/Nav.js";
 import Hero from "../components/Hero.js";
 import InfoContainer from "../components/InfoContainer.js";
+//import Carousel from "../components/Carousel";
+import RegistrationCTA from "../components/RegistrationCTA.js";
 
 export default function Home() {
   return (
@@ -25,6 +27,7 @@ export default function Home() {
       <main className="mainContent">
         <Hero />
         <InfoContainer />
+        <RegistrationCTA />
       </main>
     </div>
   );

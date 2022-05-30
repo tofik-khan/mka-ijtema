@@ -8,23 +8,19 @@ export default function Navigation() {
   return (
     <Navbar fixed="top" bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <Image src="/Ijtema-logomark.png" width={218} height={100} />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <Nav.Link href="/">Home</Nav.Link>
+            <NavDropdown title="Syllabus" id="basic-nav-dropdown">
+              <NavDropdown.Item href="http://www.atfalusa.org/ijtema/">
+                Atfal Syllabus
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item href="https://mkausa.org/syllabus2022">
+                Khuddam Syllabus
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

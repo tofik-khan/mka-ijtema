@@ -1,0 +1,22 @@
+.container {
+  background-image: url("https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1348&q=80") !important;
+  color: white;
+  min-height: 500px;
+
+  padding: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: "Noto Serif";
+  font-size: 72px;
+
+  text-transform: uppercase;
+}
+.headingLabel {
+  text-transform: none;
+  font-family: "Lato";
+  font-size: 18px;
+}

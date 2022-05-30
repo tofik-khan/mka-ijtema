@@ -9,7 +9,7 @@ export default function Navigation() {
     <Navbar fixed="top" bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <Image src="/Ijtema-logomark.png" width={218} height={100} />
+          <Image src="/Ijtema-logomark.png" width={164} height={75} />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">

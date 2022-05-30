@@ -1,3 +1,22 @@
-.infoContainer {
-  margin: auto;
+.infoContainerTitle {
+  font-family: "Noto Serif";
+  font-size: 36px;
+}
+
+.infoContainerLabel {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline #f6bc56 2px;
+}
+
+.infoContainerTextItalic {
+  font-size: 32px;
+  font-style: italic;
+  font-family: serif;
+}
+
+.infoContainerTextRegular {
+  font-size: 32px;
+  font-family: serif;
 }

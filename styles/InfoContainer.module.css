@@ -20,3 +20,21 @@
   font-size: 28px;
   font-family: serif;
 }
+
+@media only screen and (max-width: 1200px) {
+  .infoContainerTextItalic {
+    font-size: 20px;
+  }
+  .infoContainerTextRegular {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .infoContainerTextItalic {
+    font-size: 28px;
+  }
+  .infoContainerTextRegular {
+    font-size: 28px;
+  }
+}

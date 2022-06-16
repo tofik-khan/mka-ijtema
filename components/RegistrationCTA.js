@@ -1,6 +1,6 @@
 import styles from "../styles/RegistrationCTA.module.css";
 import Button from "react-bootstrap/Button";
-import Link from "next/Link";
+import Link from "next/link";
 
 export default function RegistrationCTA() {
   return (

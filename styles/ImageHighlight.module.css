@@ -1,0 +1,25 @@
+.title {
+  font-family: "Noto Serif";
+  font-size: 36px;
+}
+.container {
+  max-width: 1000px;
+  min-height: 500px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+}
+.textContainer {
+  padding: 30px 50px;
+  min-height: 300px;
+  min-width: 500px;
+  background-color: white;
+
+  margin-left: -10%;
+}
+.imageContainer {
+  width: 500px;
+  height: 400px;
+  background-image: url("https://picsum.photos/500/400");
+}

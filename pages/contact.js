@@ -1,18 +1,16 @@
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
 
 import Nav from "../components/Nav.js";
 import Footer from "../components/Footer.js";
 
-export default function Register() {
+export default function Contact() {
   return (
     <>
       <Head>
-        <title>Registeration - Ijtema 2022</title>
-        <meta
-          name="description"
-          content="Register for MKA USA National Ijtema 2022"
-        />
+        <title>Contact - Ijtema 2022</title>
+        <meta name="description" content="MKA National Ijtema 2022" />
         <link rel="icon" href="/favicon.png" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,7 +21,7 @@ export default function Register() {
         />
       </Head>
       <Nav />
-      <div className="mt-5">Registration Page</div>
+      <main className="mainContent">Contacts</main>
       <Footer />
     </>
   );

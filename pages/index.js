@@ -28,8 +28,8 @@ export default function Home() {
         <Hero />
         <InfoContainer />
         <RegistrationCTA />
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }

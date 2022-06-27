@@ -16,3 +16,9 @@ a {
 .mainContent {
   margin-top: 108px;
 }
+h1 {
+  font-family: "Noto Serif";
+  font-size: 72px;
+
+  text-transform: uppercase;
+}

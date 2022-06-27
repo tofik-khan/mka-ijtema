@@ -21,11 +21,18 @@ export default function Navigation() {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/contact">Contacts</Nav.Link>
             <NavDropdown title="Syllabus" id="basic-nav-dropdown">
-              <NavDropdown.Item href="http://www.atfalusa.org/ijtema/">
+              <NavDropdown.Item
+                href="http://www.atfalusa.org/ijtema/"
+                target="_blank"
+              >
                 Atfal Syllabus
               </NavDropdown.Item>
-              <NavDropdown.Item href="https://mkausa.org/syllabus2022">
+              <NavDropdown.Item
+                href="https://mkausa.org/syllabus2022"
+                target="_blank"
+              >
                 Khuddam Syllabus
               </NavDropdown.Item>
             </NavDropdown>

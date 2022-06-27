@@ -26,12 +26,14 @@ export default function Navigation() {
               <NavDropdown.Item
                 href="http://www.atfalusa.org/ijtema/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Atfal Syllabus
               </NavDropdown.Item>
               <NavDropdown.Item
                 href="https://mkausa.org/syllabus2022"
                 target="_blank"
+                rel="noreferrer"
               >
                 Khuddam Syllabus
               </NavDropdown.Item>

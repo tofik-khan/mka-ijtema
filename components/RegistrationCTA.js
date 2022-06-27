@@ -13,6 +13,7 @@ export default function RegistrationCTA() {
       <div className={styles.content + " py-2"}>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://mkausa.wufoo.com/forms/2022-national-khuddam-atfal-ijtema-registration/"
         >
           <Button variant="outline-warning btn-lg">Register Now</Button>

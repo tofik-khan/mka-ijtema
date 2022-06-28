@@ -6,13 +6,7 @@ import Col from "react-bootstrap/Col";
 
 import MomentsCard from "../components/MomentsCard.js";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
-
 import Image from "next/image";
-
-import "swiper/css";
-import "swiper/css/navigation";
 
 export default function Moments() {
   return (

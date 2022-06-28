@@ -5,6 +5,7 @@ import Nav from "../components/Nav.js";
 import Hero from "../components/Hero.js";
 import InfoContainer from "../components/InfoContainer.js";
 import RegistrationCTA from "../components/RegistrationCTA.js";
+import Moments from "../components/Moments.js";
 import Footer from "../components/Footer.js";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
         <Hero />
         <InfoContainer />
         <RegistrationCTA />
+        <Moments />
       </main>
       <Footer />
     </>

@@ -22,3 +22,7 @@ h1 {
 
   text-transform: uppercase;
 }
+h2 {
+  font-family: "Noto Serif";
+  font-size: 36px;
+}

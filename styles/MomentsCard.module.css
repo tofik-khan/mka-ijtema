@@ -1,0 +1,27 @@
+.image {
+  width: 100%;
+  position: relative;
+  padding-bottom: 100%;
+  border-radius: 4px;
+
+  background-size: cover;
+
+  display: flex;
+}
+.imageText {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+
+  text-align: center;
+  padding: 25px 0;
+  margin: unset;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0 0 4px 4px;
+
+  font-style: italic;
+  font-family: serif;
+}

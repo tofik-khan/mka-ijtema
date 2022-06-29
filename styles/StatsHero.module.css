@@ -1,0 +1,23 @@
+.container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  min-height: 40vh;
+
+  padding: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: "Noto Serif";
+  font-size: 72px;
+
+  text-transform: uppercase;
+}
+.headingLabel {
+  text-transform: none;
+  font-family: "Lato";
+  font-size: 18px;
+}

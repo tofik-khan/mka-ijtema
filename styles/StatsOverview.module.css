@@ -1,0 +1,15 @@
+.totalNumbers {
+  font-size: 72px;
+  font-style: italic;
+  font-family: serif;
+  font-weight: bold;
+  color: #f6bc56;
+}
+.regionNumbers {
+  color: #f6bc56;
+}
+.regionalTitle {
+  font-size: 48px;
+  text-decoration: underline #f6bc56 4px;
+  padding-bottom: 4px;
+}

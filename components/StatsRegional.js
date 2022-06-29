@@ -8,8 +8,8 @@ import Col from "react-bootstrap/Col";
 
 export default function StatsRegional({ data }) {
   const regions = extractRegions(data);
-  return regions.map((region) => (
-    <section className="my-5">
+  return regions.map((region, i) => (
+    <section className="my-5" key={`StatsRegionalSection_${i}`}>
       <Container>
         <Row>
           <h2>{region.name} Region</h2>

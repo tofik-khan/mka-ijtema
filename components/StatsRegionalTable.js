@@ -7,10 +7,10 @@ export default function StatsRegionalTable({ majalis, region }) {
       <thead>
         <tr>
           <th></th>
-          <th colspan="2" className="text-center">
+          <th colSpan="2" className="text-center">
             Atfal
           </th>
-          <th colspan="2" className="text-center">
+          <th colSpan="2" className="text-center">
             Khuddam
           </th>
         </tr>
@@ -23,8 +23,8 @@ export default function StatsRegionalTable({ majalis, region }) {
         </tr>
       </thead>
       <tbody>
-        {majalis.map((majlis) => (
-          <tr>
+        {majalis.map((majlis, i) => (
+          <tr key={`${region.name}_${majlis.name}_Row`}>
             <td>{majlis.name}</td>
             <td className="text-center">{majlis.atfalCount}</td>
             <td className="text-center">{majlis.atfalTarget}</td>

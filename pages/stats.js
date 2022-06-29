@@ -1,5 +1,5 @@
+import Head from "next/head";
 import React, { useState, useEffect } from "react";
-import Head from "next/Head";
 import Nav from "../components/Nav.js";
 
 import {

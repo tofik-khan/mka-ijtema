@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function StatsRegionalTable({ majalis, region }) {
-  console.log(majalis);
   return (
     <table className="table table-hover">
       <thead>
@@ -24,7 +23,7 @@ export default function StatsRegionalTable({ majalis, region }) {
       </thead>
       <tbody>
         {majalis.map((majlis, i) => (
-          <tr key={`${region.name}_${majlis.name}_Row`}>
+          <tr key={`${region}_${majlis.name}_Row`}>
             <td>{majlis.name}</td>
             <td className="text-center">{majlis.atfalCount}</td>
             <td className="text-center">{majlis.atfalTarget}</td>

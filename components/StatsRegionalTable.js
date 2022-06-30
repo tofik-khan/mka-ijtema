@@ -32,6 +32,23 @@ export default function StatsRegionalTable({ majalis, region }) {
           </tr>
         ))}
       </tbody>
+      <tfoot>
+        <tr className="text-center">
+          <td></td>
+          <td>
+            <strong>{region.atfalCount}</strong>
+          </td>
+          <td>
+            <strong>{region.atfalTarget}</strong>
+          </td>
+          <td>
+            <strong>{region.khuddamCount}</strong>
+          </td>
+          <td>
+            <strong>{region.khuddamTarget}</strong>
+          </td>
+        </tr>
+      </tfoot>
     </table>
   );
 }

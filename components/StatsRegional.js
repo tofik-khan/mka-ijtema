@@ -19,10 +19,7 @@ export default function StatsRegional({ data }) {
             <StatsRegionalChart majalis={region.majalis} />
           </Col>
           <Col lg={6}>
-            <StatsRegionalTable
-              majalis={region.majalis}
-              reigion={region.name}
-            />
+            <StatsRegionalTable majalis={region.majalis} region={region} />
           </Col>
         </Row>
         <Row className="py-4 text-center">

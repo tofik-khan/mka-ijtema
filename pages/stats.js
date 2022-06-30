@@ -17,6 +17,7 @@ import {
 import StatsHero from "../components/StatsHero.js";
 import StatsOverview from "../components/StatsOverview.js";
 import StatsRegional from "../components/StatsRegional.js";
+import StatsTotal from "../components/StatsTotal.js";
 
 import Footer from "../components/Footer.js";
 
@@ -59,6 +60,7 @@ export default function Stats() {
           <StatsHero update={formData.update} />
           <StatsOverview data={formData} />
           <StatsRegional data={formData} />
+          <StatsTotal data={formData} />
         </main>
         <Footer />
       </>
@@ -77,6 +79,10 @@ function sanitizeFormData(response) {
         rtnObject.totals = {
           all: row[ALL_COUNT_INDEX],
           allTarget: row[ALL_TARGET_INDEX],
+          atfalCount: row[ATFAL_COUNT],
+          atfalTarget: row[ATFAL_TARGET],
+          khuddamCount: row[KHUDDAM_COUNT],
+          khuddamTarget: row[KHUDDAM_TARGET],
         };
         break;
       case "Majlis":

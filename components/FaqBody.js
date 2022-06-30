@@ -20,10 +20,9 @@ export default function FaqBody() {
           </h3>
           <p>
             The Ijtema officially begins on August 19<sup>th</sup> with the
-            Jummah Prayers. The Jummah Prayer will begin at ....Insert Time....
-            However, to allow ample time to settle in and prepare the Ijtema
-            Administration team is asking everyone to arrive before ....INSERT
-            TIME....
+            Jummah Prayers. The Jummah Prayer will begin at 1:00pm However, to
+            allow ample time to settle in and prepare the Ijtema Administration
+            team is asking everyone to arrive before 11:00am
           </p>
           <p className="text-dark text-italic">
             * Please note that if you are part of the MKA Shura, the Shura

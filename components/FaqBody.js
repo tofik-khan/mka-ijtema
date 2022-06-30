@@ -20,9 +20,9 @@ export default function FaqBody() {
           </h3>
           <p>
             The Ijtema officially begins on August 19<sup>th</sup> with the
-            Jummah Prayers. The Jummah Prayer will begin at 1:00pm However, to
-            allow ample time to settle in and prepare the Ijtema Administration
-            team is asking everyone to arrive before 11:00am
+            Jummah Prayers. The Jummah Prayer will begin at 1:00pm. The
+            activities for Ijtema will begin at 11:00am so the Admin team is
+            asking everyone to be at the Ijtema site before then.
           </p>
           <p className="text-dark text-italic">
             * Please note that if you are part of the MKA Shura, the Shura
@@ -32,10 +32,9 @@ export default function FaqBody() {
           <p>
             BWI Airport is the closest airport to the Baitur Rahman Mosque. The
             distance from BWI airport to BRM is around 26 miles by car. Members
-            of the transport team will be present at BWI airport only for your
-            assistance. Transport from IAD and DCA will also be available. For
-            any further information please contact to Ansar Malik Sahib (240-
-            491-7750).
+            of the transport team will be available at all airports, BWI is
+            preferred due to proximity. For any further information please
+            contact to Ansar Malik Sahib (240) 491-7750.
           </p>
           <h3 className="text-italic pt-3">Where will I be staying?</h3>
           <p>
@@ -93,20 +92,18 @@ export default function FaqBody() {
       <Row>
         <Col>
           <h3 className="text-italic pt-3">What should I bring?</h3>
-          <p>
-            <ul>
-              <li>Personal ID Card</li>
-              <li>Jama’at Member ID Card</li>
-              <li>Health Insurance Card</li>
-              <li>Clothes for 2 or 3 nights stay (as per your requirement)</li>
-              <li>Cap</li>
-              <li>MKA Scarf (Optional)</li>
-              <li>Toothbrush / Toothpaste</li>
-              <li>Hair Brush or Comb</li>
-              <li>Cell Phone & Charger</li>
-              <li>Shaving Kit & Extra Razors (if needed)</li>
-            </ul>
-          </p>
+          <ul>
+            <li>Personal ID Card</li>
+            <li>Jama’at Member ID Card</li>
+            <li>Health Insurance Card</li>
+            <li>Clothes for 2 or 3 nights stay (as per your requirement)</li>
+            <li>Cap</li>
+            <li>MKA Scarf (Optional)</li>
+            <li>Toothbrush / Toothpaste</li>
+            <li>Hair Brush or Comb</li>
+            <li>Cell Phone & Charger</li>
+            <li>Shaving Kit & Extra Razors (if needed)</li>
+          </ul>
         </Col>
       </Row>
       <Row>

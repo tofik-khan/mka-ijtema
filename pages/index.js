@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>Ijtema 2022</title>
         <meta name="description" content="MKA National Ijtema 2022" />
+        <meta name="format-detection" content="telephone=no" />
         <link rel="icon" href="/favicon.png" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />

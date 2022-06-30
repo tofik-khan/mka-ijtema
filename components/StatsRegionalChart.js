@@ -53,7 +53,7 @@ export default function StatsRegionalChart({ majalis }) {
         stack: "Stack 0",
       },
       {
-        label: "Total Target",
+        label: "",
         data: majalis.map((majlis) => majlis.allTarget),
         backgroundColor: "rgb(240,240,240)",
         stack: "Stack 0",
@@ -65,7 +65,7 @@ export default function StatsRegionalChart({ majalis }) {
         stack: "Stack 1",
       },
       {
-        label: "Atfal Target",
+        label: "",
         data: majalis.map((majlis) => majlis.atfalTarget),
         backgroundColor: "rgb(240,240,240)",
         stack: "Stack 1",
@@ -77,7 +77,7 @@ export default function StatsRegionalChart({ majalis }) {
         stack: "Stack 2",
       },
       {
-        label: "Khuddam Target",
+        label: "",
         data: majalis.map((majlis) => majlis.khuddamTarget),
         backgroundColor: "rgb(240,240,240)",
         stack: "Stack 2",

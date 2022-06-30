@@ -17,7 +17,7 @@ export default function StatsTotal({ data }) {
         </Row>
         <Row className="text-center">
           <Col xs={11}>
-            <table class="table table-hover table-responsive">
+            <table className="table table-hover table-responsive">
               <thead>
                 <tr>
                   <th>Auxilary</th>

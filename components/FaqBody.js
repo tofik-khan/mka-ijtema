@@ -72,7 +72,7 @@ export default function FaqBody() {
             </a>
           </p>
           <p className="text-dark text-italic">
-            * Note: flight information is required if you're flying to the
+            * Note: flight information is required if you&apos;re flying to the
             Ijtema. Please purchase your tickets before starting the
             registration form.
           </p>

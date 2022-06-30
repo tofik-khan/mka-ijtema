@@ -15,7 +15,7 @@ export default function StatsRegional({ data }) {
           <h2>{region.name} Region</h2>
         </Row>
         <Row>
-          <Col lg={6}>
+          <Col lg={6} style={{ minHeight: "200px" }}>
             <StatsRegionalChart majalis={region.majalis} />
           </Col>
           <Col lg={6}>

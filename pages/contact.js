@@ -73,7 +73,7 @@ export default function Contact() {
                 details={{
                   name: "Waleed Sial",
                   designation: "Naib Nazim e Ala - Atfal",
-                  image: "placeholder.jpeg",
+                  image: "naib-nazim-e-ala-atfal.jpg",
                   phone: "(614) 804-4148",
                 }}
               />
@@ -85,7 +85,8 @@ export default function Contact() {
                 details={{
                   name: "Kasid Naeem",
                   designation: "Naib Nazim e Ala - Daftar",
-                  image: "placeholder.jpeg",
+                  image: "naib-nazim-e-ala-daftar.jpg",
+                  phone: "(832) 866-1045‬",
                 }}
               />
             </Col>

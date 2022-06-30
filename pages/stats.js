@@ -12,10 +12,12 @@ import {
   ATFAL_TARGET,
   KHUDDAM_COUNT,
   KHUDDAM_TARGET,
+  ANSAR_COUNT,
 } from "../components/const.js";
 
 import StatsHero from "../components/StatsHero.js";
 import StatsOverview from "../components/StatsOverview.js";
+import StatsOverviewPlaceholder from "../components/StatsOverviewPlaceholder.js";
 import StatsRegional from "../components/StatsRegional.js";
 import StatsTotal from "../components/StatsTotal.js";
 
@@ -57,7 +59,7 @@ export default function Stats() {
         </Head>
         <Nav />
         <main className="mainContent">
-          <StatsHero update={formData.update} />
+          <StatsHero />
           <StatsOverview data={formData} />
           <StatsRegional data={formData} />
           <StatsTotal data={formData} />
@@ -66,7 +68,28 @@ export default function Stats() {
       </>
     );
   } else {
-    return <div>Loading</div>;
+    return (
+      <>
+        <Head>
+          <title>Stats - Ijtema 2022</title>
+          <meta name="description" content="MKA National Ijtema 2022" />
+          <link rel="icon" href="/favicon.png" />
+
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Noto+Serif:wght@700&display=swap"
+            rel="stylesheet"
+          />
+        </Head>
+        <Nav />
+        <main className="mainContent">
+          <StatsHero />
+          <StatsOverviewPlaceholder />
+        </main>
+        <Footer />
+      </>
+    );
   }
 }
 function sanitizeFormData(response) {
@@ -83,6 +106,7 @@ function sanitizeFormData(response) {
           atfalTarget: row[ATFAL_TARGET],
           khuddamCount: row[KHUDDAM_COUNT],
           khuddamTarget: row[KHUDDAM_TARGET],
+          ansarCount: row[ANSAR_COUNT],
         };
         break;
       case "Majlis":

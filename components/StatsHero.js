@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 
 import Image from "next/image";
 
-export default function StatsHero({ update }) {
+export default function StatsHero() {
   return (
     <div className={styles.container}>
       <Container>

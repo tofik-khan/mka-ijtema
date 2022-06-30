@@ -54,12 +54,19 @@ export default function StatsTotal({ data }) {
                     ).toFixed(2) + " %"}
                   </td>
                 </tr>
+                <tr>
+                  <th>Ansar</th>
+                  <td></td>
+                  <td></td>
+                  <td>{data.totals.ansarCount}</td>
+                  <td></td>
+                </tr>
               </tbody>
             </table>
           </Col>
         </Row>
-        <Row>
-          <Col md={6}>
+        <Row className="justify-content-around">
+          <Col md={3}>
             <StatsPieChart
               count={data.totals.atfalCount}
               target={data.totals.atfalTarget}
@@ -67,7 +74,7 @@ export default function StatsTotal({ data }) {
             />
             <h4 className="text-center pt-2">Atfal</h4>
           </Col>
-          <Col md={6}>
+          <Col md={3}>
             <StatsPieChart
               count={data.totals.khuddamCount}
               target={data.totals.khuddamTarget}

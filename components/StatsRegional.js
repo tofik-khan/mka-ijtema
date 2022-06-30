@@ -25,6 +25,33 @@ export default function StatsRegional({ data }) {
             />
           </Col>
         </Row>
+        <Row className="py-4 text-center">
+          <Col>
+            Atfal Goal:{" "}
+            {(
+              (parseInt(region.atfalCount) / parseInt(region.atfalTarget)) *
+              100
+            ).toFixed(2)}{" "}
+            %
+          </Col>
+          <Col>
+            {" "}
+            Khuddam Goal:{" "}
+            {(
+              (parseInt(region.khuddamCount) / parseInt(region.khuddamTarget)) *
+              100
+            ).toFixed(2)}{" "}
+            %
+          </Col>
+          <Col>
+            {" "}
+            Total Goal:{" "}
+            {((parseInt(region.count) / parseInt(region.target)) * 100).toFixed(
+              2
+            )}{" "}
+            %
+          </Col>
+        </Row>
       </Container>
     </section>
   ));
@@ -36,6 +63,10 @@ function extractRegions(data) {
       name: region.name,
       target: region.allTarget,
       count: region.all,
+      atfalCount: region.atfalCount,
+      atfalTarget: region.atfalTarget,
+      khuddamCount: region.khuddamCount,
+      khuddamTarget: region.khuddamTarget,
       majalis: data.majalis.filter((majlis) => {
         return majlis.region === region.name;
       }),

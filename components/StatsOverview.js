@@ -30,6 +30,9 @@ export default function StatsOverview({ data }) {
         <Row className="justify-content-center py-5 text-light">
           {regionsColumn}
         </Row>
+        <Row className="justify-content-end text-white">
+          <Col xs="auto">{data.update}</Col>
+        </Row>
       </Container>
     </section>
   );

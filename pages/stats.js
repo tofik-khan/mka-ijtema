@@ -56,7 +56,7 @@ export default function Stats() {
         </Head>
         <Nav />
         <main className="mainContent">
-          <StatsHero />
+          <StatsHero update={formData.update} />
           <StatsOverview data={formData} />
           <StatsRegional data={formData} />
         </main>
@@ -69,7 +69,7 @@ export default function Stats() {
 }
 function sanitizeFormData(response) {
   //{totals: {all: "123", khuddam: "12", atfal: "5"}, regions: [], majalis: []}
-  let rtnObject = { totals: {}, regions: [], majalis: [] };
+  let rtnObject = { totals: {}, regions: [], majalis: [], update: "" };
 
   response.map((row) => {
     switch (row[TYPE_INDEX]) {
@@ -96,7 +96,14 @@ function sanitizeFormData(response) {
           name: row[NAME_INDEX],
           all: row[ALL_COUNT_INDEX],
           allTarget: row[ALL_TARGET_INDEX],
+          atfalCount: row[ATFAL_COUNT],
+          atfalTarget: row[ATFAL_TARGET],
+          khuddamCount: row[KHUDDAM_COUNT],
+          khuddamTarget: row[KHUDDAM_TARGET],
         });
+        break;
+      case "Update":
+        rtnObject.update = row[1];
         break;
       default:
     }

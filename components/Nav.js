@@ -22,6 +22,7 @@ export default function Navigation() {
           <Nav>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/contact">Contacts</Nav.Link>
+            <Nav.Link href="/faq">FAQs</Nav.Link>
             <Nav.Link href="/stats">Stats</Nav.Link>
             <NavDropdown title="Syllabus" id="basic-nav-dropdown">
               <NavDropdown.Item

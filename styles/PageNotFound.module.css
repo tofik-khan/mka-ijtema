@@ -1,0 +1,13 @@
+.section {
+  min-height: 80vh;
+  background-color: #202122;
+}
+.heading {
+  color: #f6bc56;
+  font-family: "Noto Serif";
+  font-size: 72px;
+}
+.subHeading {
+  color: white;
+  font-size: 36px;
+}

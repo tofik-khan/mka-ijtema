@@ -17,6 +17,7 @@ import {
 
 import StatsHero from "../components/StatsHero.js";
 import StatsOverview from "../components/StatsOverview.js";
+import StatsTopPerformers from "../components/StatsTopPerformers.js";
 import StatsOverviewPlaceholder from "../components/StatsOverviewPlaceholder.js";
 import StatsRegional from "../components/StatsRegional.js";
 import StatsTotal from "../components/StatsTotal.js";
@@ -43,6 +44,7 @@ export default function Stats() {
   }, []);
 
   if (isLoaded) {
+    const topPerformers = getTopMajalis(formData);
     return (
       <>
         <Head>
@@ -61,6 +63,7 @@ export default function Stats() {
         <main className="mainContent">
           <StatsHero />
           <StatsOverview data={formData} />
+          <StatsTopPerformers data={topPerformers} />
           <StatsRegional data={formData} />
           <StatsTotal data={formData} />
         </main>
@@ -139,4 +142,21 @@ function sanitizeFormData(response) {
     }
   });
   return rtnObject;
+}
+
+function getTopMajalis(formData) {
+  return formData.majalis
+    .map((majlis) => {
+      return [
+        majlis.name,
+        (parseInt(majlis.all.replace(",", "")) /
+          parseInt(majlis.allTarget.replace(",", ""))) *
+          100,
+        majlis.atfalCount,
+        majlis.khuddamCount,
+      ];
+    })
+    .sort((a, b) => {
+      return b[1] - a[1];
+    });
 }

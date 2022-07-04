@@ -1,0 +1,23 @@
+.positionFirst {
+  font-size: 48px;
+  font-style: italic;
+  font-family: serif;
+  font-weight: bold;
+  color: #f6bc56;
+}
+.position {
+  font-size: 48px;
+  font-style: italic;
+  font-family: serif;
+  font-weight: bold;
+  color: black;
+}
+.majlisName {
+  font-size: 36px;
+}
+.percentage {
+  font-size: 24px;
+}
+.targetAchieved {
+  font-size: 14px;
+}

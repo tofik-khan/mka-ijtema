@@ -36,6 +36,14 @@ export default function FaqBody() {
             preferred due to proximity. For any further information please
             contact to Ansar Malik Sahib (240) 491-7750.
           </p>
+          <h3 className="text-italic pt-3">
+            What subsidies are available to me?
+          </h3>
+          <p>
+            Each region has been assigned a portion of the travel subsidy
+            budget. If you need help covering your travel costs, please reach
+            out to your Regional or Local Qaid.
+          </p>
           <h3 className="text-italic pt-3">Where will I be staying?</h3>
           <p>
             Atfal will be accommodated inside the Mosque while Khuddam will be

@@ -22,7 +22,7 @@ export default function FaqBody() {
             The Ijtema officially begins on August 19<sup>th</sup> with the
             Jummah Prayers. The Jummah Prayer will begin at 1:00pm. The
             activities for Ijtema will begin at 11:00am so the Admin team is
-            asking everyone to be at the Ijtema site before then.
+            asking everyone to be at the Ijtema site by 11:00am.
           </p>
           <p className="text-dark text-italic">
             * Please note that if you are part of the MKA Shura, the Shura

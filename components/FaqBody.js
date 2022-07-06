@@ -32,9 +32,10 @@ export default function FaqBody() {
           <p>
             BWI Airport is the closest airport to the Baitur Rahman Mosque. The
             distance from BWI airport to BRM is around 26 miles by car. Members
-            of the transport team will be available at all airports, BWI is
-            preferred due to proximity. For any further information please
-            contact to Ansar Malik Sahib (240) 491-7750.
+            of the transport team will be available at BWI, DCA & IAD airports.
+            <strong> However, BWI is preferred due to proximity.</strong> For
+            any further information please contact to Ansar Malik Sahib (240)
+            491-7750.
           </p>
           <h3 className="text-italic pt-3">
             What subsidies are available to me?

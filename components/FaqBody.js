@@ -51,6 +51,38 @@ export default function FaqBody() {
             outside in the air conditioned sleeping marquee. Please bring your
             sleeping bags and other necessary items for night stay.{" "}
           </p>
+          <p>
+            While on-site sleeping arrangements are readily available at Masjid
+            Bait-ur-Rahman for Ijtema, some may prefer the convenience of{" "}
+            <strong>hotel accommodations</strong>. As such, the Ijtema team has
+            negotiated a group rate with two nearby hotels for those wanting to
+            stay off-site and can cover the cost. Both hotels are about 4 miles
+            away and shuttles will be available for those staying here. For
+            guests that prefer staying in a hotel, you can book as follows:
+            <br />
+            1) Courtyard by Marriott (12521 Prosperity Drive, Silver Spring, MD
+            20904): <strong>$119 + tax</strong> per night by calling:
+            301-680-8500. Guests should mention the discount code:{" "}
+            <strong>MKA ROOM BLOCK</strong>. This code is valid from Friday,
+            August 19 (Check in) - Sunday, August 21 (Check out). 60 rooms are
+            reserved here and are first come first serve
+            <br />
+            2) Residence Inn by Marriott (12000 Plum Orchard Drive, Silver
+            Spring, MD 20904): <strong>$149 + tax</strong> per night by calling:
+            301-572-2322. Guests should mention the discount code:{" "}
+            <strong>MKA ROOM BLOCK</strong>. This code is valid from Friday,
+            August 19 (Check in) - Sunday, August 21 (Check out). 40 rooms are
+            reserved here and are first come first serve. This hotel includes
+            breakfast.
+            <br />
+            Rooms can sleep 3-4 guests. Attendees are encouraged to book with
+            their friends and relatives to save costs. The deadline to lock in
+            these rates is <strong>July 29, 2022</strong>.
+          </p>
+          <p className="text-dark text-italic">
+            If you have any questions, please reach out to Ali Chaudhry
+            (240-997-6262).
+          </p>
           <h3 className="text-italic pt-3">Where can I park my car?</h3>
           <p>
             The Main Car Parking for Ijtema is outside of the Baitur Rahman
@@ -102,6 +134,10 @@ export default function FaqBody() {
         <Col>
           <h3 className="text-italic pt-3">What should I bring?</h3>
           <ul>
+            <li>
+              Sleeping Bag (All Khuddam and Atfal staying on site will need
+              their own sleeping bag)
+            </li>
             <li>Personal ID Card</li>
             <li>Jama’at Member ID Card</li>
             <li>Health Insurance Card</li>

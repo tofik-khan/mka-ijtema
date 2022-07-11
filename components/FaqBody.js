@@ -61,23 +61,29 @@ export default function FaqBody() {
             guests that prefer staying in a hotel, you can book as follows:
             <br />
             1) Courtyard by Marriott (12521 Prosperity Drive, Silver Spring, MD
-            20904): <strong>$119 + tax</strong> per night by calling:
-            301-680-8500. Guests should mention the discount code:{" "}
-            <strong>MKA ROOM BLOCK</strong>. This code is valid from Friday,
-            August 19 (Check in) - Sunday, August 21 (Check out). 60 rooms are
-            reserved here and are first come first serve
+            20904): <strong>$119 + tax</strong> per night using the below link
+            or by calling: 301-680-8500. Guests should mention the discount
+            code: MKA ROOM BLOCK. This code is valid from Friday, August 19
+            (Check in) - Sunday, August 21 (Check out). 60 rooms are reserved
+            here and are first come first serve. A limited number of rooms will
+            be available starting Thursday, August 18.
+            <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1657208295630&key=GRP&app=resvlink">
+              Reservation Link
+            </a>
             <br />
             2) Residence Inn by Marriott (12000 Plum Orchard Drive, Silver
-            Spring, MD 20904): <strong>$149 + tax</strong> per night by calling:
-            301-572-2322. Guests should mention the discount code:{" "}
-            <strong>MKA ROOM BLOCK</strong>. This code is valid from Friday,
+            Spring, MD 20904): <strong>$149 + tax</strong> per night using the
+            below link or by calling: 301-572-2322. Guests should mention the
+            discount code: MKA ROOM BLOCK. This code is valid from Friday,
             August 19 (Check in) - Sunday, August 21 (Check out). 40 rooms are
             reserved here and are first come first serve. This hotel includes
             breakfast.
-            <br />
+            <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1657208169340&key=GRP&app=resvlink">
+              Reservation Link
+            </a>
             Rooms can sleep 3-4 guests. Attendees are encouraged to book with
             their friends and relatives to save costs. The deadline to lock in
-            these rates is <strong>July 29, 2022</strong>.
+            these rates is July 29, 2022.
           </p>
           <p className="text-dark text-italic">
             If you have any questions, please reach out to Ali Chaudhry
@@ -87,6 +93,31 @@ export default function FaqBody() {
           <p>
             The Main Car Parking for Ijtema is outside of the Baitur Rahman
             Mosque. No car parking will be allowed inside the mosque.
+          </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <h3 className="text-italic pt-3">
+            What discount is available for Airline tickets?
+          </h3>
+          <p>
+            United Airlines: <strong>ZMCC379520</strong>
+            <br />
+            Use the following link or type the above code under "Promotions" in
+            the Advanced Search menu. This code is valid for airport code BWI,
+            DCA, and IAD (you can also search with WAS).
+            <a href="https://www.united.com/ual/en/us/booking/searchinjection?txtPromoCode=ZMCC379520">
+              Booking Link
+            </a>
+            Alaska Airlines: <strong>ECME253</strong>
+            <br />
+            To use this Discount Code, go online to alaskaair.com and input the
+            Discount Code when searching for flights. The discount will be
+            applied to any flights meeting the contract parameters. This code is
+            valid for booking between August 15 thru August 29, 2022. This code
+            is valid to travel from all 48 lower states to Washington DC (DCA)
+            or (IAD) or BWI, Maryland or Philadelphia, Pennsylvania.
           </p>
         </Col>
       </Row>

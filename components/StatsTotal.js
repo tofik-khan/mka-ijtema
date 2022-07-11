@@ -31,7 +31,7 @@ export default function StatsTotal({ data }) {
                 <tr>
                   <th>Atfal</th>
                   <td className="d-none d-md-block">1,249</td>
-                  <td>794</td>
+                  <td>{data.totals.atfalTarget}</td>
                   <td>{data.totals.atfalCount}</td>
                   <td>
                     {(
@@ -44,7 +44,7 @@ export default function StatsTotal({ data }) {
                 <tr>
                   <th>Khuddam</th>
                   <td className="d-none d-md-block">3,950</td>
-                  <td>1,680</td>
+                  <td>{data.totals.khuddamTarget}</td>
                   <td>{data.totals.khuddamCount}</td>
                   <td>
                     {(

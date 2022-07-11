@@ -49,11 +49,11 @@ export default function FaqBody() {
           <p>
             Atfal will be accommodated inside the Mosque while Khuddam will be
             outside in the air conditioned sleeping marquee. Please bring your
-            sleeping bags and other necessary items for night stay.{" "}
+            sleeping bags and other necessary items for night stay.
           </p>
           <p>
             While on-site sleeping arrangements are readily available at Masjid
-            Bait-ur-Rahman for Ijtema, some may prefer the convenience of{" "}
+            Bait-ur-Rahman for Ijtema, some may prefer the convenience of
             <strong>hotel accommodations</strong>. As such, the Ijtema team has
             negotiated a group rate with two nearby hotels for those wanting to
             stay off-site and can cover the cost. Both hotels are about 4 miles
@@ -104,9 +104,10 @@ export default function FaqBody() {
           <p>
             United Airlines: <strong>ZMCC379520</strong>
             <br />
-            Use the following link or type the above code under "Promotions" in
-            the Advanced Search menu. This code is valid for airport code BWI,
-            DCA, and IAD (you can also search with WAS).
+            Use the following link or type the above code under
+            &ldquo;Promotions&rdquo; in the Advanced Search menu. This code is
+            valid for airport code BWI, DCA, and IAD (you can also search with
+            WAS).
             <a href="https://www.united.com/ual/en/us/booking/searchinjection?txtPromoCode=ZMCC379520">
               Booking Link
             </a>

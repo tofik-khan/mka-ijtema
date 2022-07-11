@@ -1,5 +1,5 @@
-import Head from "next/head";
 import React, { useState, useEffect } from "react";
+import Header from "../components/Header.js";
 import Nav from "../components/Nav.js";
 
 import {
@@ -47,18 +47,12 @@ export default function Stats() {
     const topPerformers = getTopMajalis(formData);
     return (
       <>
-        <Head>
-          <title>Stats - Ijtema 2022</title>
-          <meta name="description" content="MKA National Ijtema 2022" />
-          <link rel="icon" href="/favicon.png" />
-
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Noto+Serif:wght@700&display=swap"
-            rel="stylesheet"
-          />
-        </Head>
+        <Header
+          data={{
+            title: "Stats - Ijtema 2022",
+            description: "MKA National Ijtema 2022 Registration Statistics",
+          }}
+        />
         <Nav />
         <main className="mainContent">
           <StatsHero />
@@ -73,18 +67,12 @@ export default function Stats() {
   } else {
     return (
       <>
-        <Head>
-          <title>Stats - Ijtema 2022</title>
-          <meta name="description" content="MKA National Ijtema 2022" />
-          <link rel="icon" href="/favicon.png" />
-
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Noto+Serif:wght@700&display=swap"
-            rel="stylesheet"
-          />
-        </Head>
+        <Header
+          data={{
+            title: "Stats - Ijtema 2022",
+            description: "MKA National Ijtema 2022 Registration Statistics",
+          }}
+        />
         <Nav />
         <main className="mainContent">
           <StatsHero />

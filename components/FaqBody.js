@@ -149,6 +149,18 @@ export default function FaqBody() {
             </a>
             <br />
             <br />
+            American Airlines: <strong>3282DE</strong>
+            <br />
+            Visit{" "}
+            <a href="https://aa.com" target="_blank" rel="noreferrer">
+              aa.com
+            </a>{" "}
+            and search for your desired flights. The discount will cover all
+            travel to BWI/DCA/IAD. Travel is valid between Aug 15 - Aug 23.
+            Enter the code below the Passenger Details under &ldquo;Promotion
+            code&rdquo; after you have selected your itinerary.
+            <br />
+            <br />
             Alaska Airlines: <strong>ECME253</strong>
             <br />
             To use this Discount Code, go online to{" "}

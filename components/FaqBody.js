@@ -41,9 +41,26 @@ export default function FaqBody() {
             What subsidies are available to me?
           </h3>
           <p>
-            Each region has been assigned a portion of the travel subsidy
-            budget. If you need help covering your travel costs, please reach
-            out to your Regional or Local Qaid.
+            Each region has been assigned a specific amount toward travel as per
+            below. Keep in mind this is for those who are flying in. Carpools
+            and vans are being arranged from various other nearby regions so
+            please check with your Qaid or Regional Qaid.
+            <ul>
+              <li>Gulf - $100</li>
+              <li>Midwest - $50</li>
+              <li>Missouri - $75</li>
+              <li>Northwest - $250</li>
+              <li>Southwest - $200</li>
+              <li>Southeast - $50</li>
+              <li>
+                Other Regions - on need basis (to be filled out on the form)
+              </li>
+            </ul>
+          </p>
+          <p>
+            <a href="https://khudd.am/subsidy" target="_blank" rel="noreferrer">
+              Apply for subsidy
+            </a>
           </p>
           <h3 className="text-italic pt-3">Where will I be staying?</h3>
           <p>

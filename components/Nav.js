@@ -28,7 +28,7 @@ export default function Navigation() {
               target="_blank"
               rel="noreferrer"
             >
-              Info
+              Brochure
             </Nav.Link>
             <Nav.Link href="/stats">Stats</Nav.Link>
             <NavDropdown title="Syllabus" id="basic-nav-dropdown">

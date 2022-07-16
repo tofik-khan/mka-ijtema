@@ -87,7 +87,7 @@ export default function TaleemParticipationRules() {
             Hifz-e-Quran
             <br />
             Hifz-e-Ahadith <br />
-            Hifz-e-Adi'yyah <br />
+            Hifz-e-Adi&apos;yyah <br />
           </Col>
           <Col md={9} className="border border-dark py-3">
             <p>

@@ -177,6 +177,21 @@ export default function FaqBody() {
       </Row>
       <Row>
         <Col>
+          <h3 className="text-italic pt-3">
+            How can I request a leave of absence from school/work?
+          </h3>
+          <p>
+            You can use the{" "}
+            <a href="/files/leave-request.pdf" target="_blank" rel="noreferrer">
+              leave request template
+            </a>{" "}
+            to request and absence from school or work in order to attend the
+            Ijtema.
+          </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
           <h2 className="text-center py-2">Registration &amp; Check-in</h2>
         </Col>
       </Row>

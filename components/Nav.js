@@ -32,11 +32,7 @@ export default function Navigation() {
               >
                 Atfal Syllabus
               </NavDropdown.Item>
-              <NavDropdown.Item
-                href="https://mkausa.org/syllabus2022"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <NavDropdown.Item href="/taleem">
                 Khuddam Syllabus
               </NavDropdown.Item>
             </NavDropdown>

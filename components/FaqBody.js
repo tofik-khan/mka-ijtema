@@ -42,9 +42,8 @@ export default function FaqBody() {
           </h3>
           <p>
             Each region has been assigned a specific amount toward travel as per
-            below. Keep in mind this is for those who are flying in. Carpools
-            and vans are being arranged from various other nearby regions so
-            please check with your Qaid or Regional Qaid.
+            below. If you need additional help covering your travel costs,
+            please indicate this on the request form.
             <ul>
               <li>Gulf - $100</li>
               <li>Midwest - $50</li>
@@ -61,6 +60,11 @@ export default function FaqBody() {
             <a href="https://khudd.am/subsidy" target="_blank" rel="noreferrer">
               Apply for subsidy
             </a>
+          </p>
+          <p>
+            Keep in mind this is for those who are flying in. Carpools and vans
+            are being arranged from various other nearby regions so please check
+            with your Qaid or Regional Qaid.
           </p>
           <h3 className="text-italic pt-3">Where will I be staying?</h3>
           <p>

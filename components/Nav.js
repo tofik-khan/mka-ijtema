@@ -23,6 +23,13 @@ export default function Navigation() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/contact">Contacts</Nav.Link>
             <Nav.Link href="/faq">FAQs</Nav.Link>
+            <Nav.Link
+              href="/files/ijtema-info.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Info
+            </Nav.Link>
             <Nav.Link href="/stats">Stats</Nav.Link>
             <NavDropdown title="Syllabus" id="basic-nav-dropdown">
               <NavDropdown.Item

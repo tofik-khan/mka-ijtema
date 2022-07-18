@@ -31,17 +31,15 @@ export default function Navigation() {
               Brochure
             </Nav.Link>
             <Nav.Link href="/stats">Stats</Nav.Link>
-            <NavDropdown title="Syllabus" id="basic-nav-dropdown">
+            <NavDropdown title="Taleem" id="basic-nav-dropdown">
               <NavDropdown.Item
                 href="http://www.atfalusa.org/ijtema/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Atfal Syllabus
+                Atfal
               </NavDropdown.Item>
-              <NavDropdown.Item href="/taleem">
-                Khuddam Syllabus
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/taleem">Khuddam</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

@@ -12,9 +12,15 @@ export default function TaleemSyllabus() {
       <Row className="py-5 justify-content-center">
         <Col xs="auto">
           <h2 className="text-warning">
-            <Button variant="outline-warning btn-lg">
-              Syllabus <FiletypePdf size={20} />
-            </Button>
+            <a
+              href="/files/khuddam-syllabus.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button variant="outline-warning btn-lg">
+                Syllabus <FiletypePdf size={20} />
+              </Button>
+            </a>
           </h2>
         </Col>
       </Row>

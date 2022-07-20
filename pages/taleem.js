@@ -4,6 +4,7 @@ import Nav from "../components/Nav.js";
 
 import TaleemHero from "../components/TaleemHero.js";
 import TaleemParticipationRules from "../components/TaleemParticipationRules.js";
+import TaleemSyllabus from "../components/TaleemSyllabus.js";
 
 import Footer from "../components/Footer.js";
 
@@ -19,6 +20,7 @@ export default function Taleem() {
       <Nav />
       <main className="mainContent">
         <TaleemHero />
+        <TaleemSyllabus />
         <TaleemParticipationRules />
       </main>
       <Footer />

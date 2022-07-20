@@ -58,9 +58,9 @@ export default function TaleemParticipationRules() {
               Khuddam who missed the Ijtema for other genuine reason can also
               participate in this with the permission of their Qaid, e.g. missed
               ijtema because you needed to participate in Virtual Waqf-e-Nau
-              Mulaqat. If you missed regional Ijtema because of work and/or
-              studies, this does not count as a valid excuse to participate in
-              this qualifying round.
+              Mulaqat. If you missed regional Ijtema because of work, this does
+              not count as a valid excuse to participate in this qualifying
+              round.
             </p>
             <p>
               Those who successfully pass the qualifying round on Friday, will

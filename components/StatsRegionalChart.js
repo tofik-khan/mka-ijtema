@@ -54,7 +54,10 @@ export default function StatsRegionalChart({ majalis }) {
       },
       {
         label: "",
-        data: majalis.map((majlis) => majlis.allTarget),
+        data: majalis.map((majlis) => {
+          const targetLeft = majlis.allTarget - majlis.all;
+          return targetLeft <= 0 ? 0 : targetLeft;
+        }),
         backgroundColor: "rgb(240,240,240)",
         stack: "Stack 0",
       },
@@ -66,7 +69,10 @@ export default function StatsRegionalChart({ majalis }) {
       },
       {
         label: "",
-        data: majalis.map((majlis) => majlis.atfalTarget),
+        data: majalis.map((majlis) => {
+          const targetLeft = majlis.atfalTarget - majlis.atfalCount;
+          return targetLeft <= 0 ? 0 : targetLeft;
+        }),
         backgroundColor: "rgb(240,240,240)",
         stack: "Stack 1",
       },
@@ -78,7 +84,10 @@ export default function StatsRegionalChart({ majalis }) {
       },
       {
         label: "",
-        data: majalis.map((majlis) => majlis.khuddamTarget),
+        data: majalis.map((majlis) => {
+          const targetLeft = majlis.khuddamTarget - majlis.khuddamCount;
+          return targetLeft <= 0 ? 0 : targetLeft;
+        }),
         backgroundColor: "rgb(240,240,240)",
         stack: "Stack 2",
       },

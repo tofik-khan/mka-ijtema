@@ -8,7 +8,7 @@ export default function TaleemParticipationRules() {
       <Container>
         <Row>
           <Col>
-            <h2 className="py-5">Individual Competitions</h2>
+            <h2 className="py-5">Taleem Competitions</h2>
           </Col>
         </Row>
         <Row className="justify-content-center mx-1">
@@ -132,7 +132,7 @@ export default function TaleemParticipationRules() {
       <Container>
         <Row>
           <Col>
-            <h2 className="py-5">Team Competitions</h2>
+            <h2 className="py-5">Team Competition Rules</h2>
           </Col>
         </Row>
         <Row className="justify-content-center mx-1">

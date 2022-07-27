@@ -31,6 +31,7 @@ export default function Navigation() {
               Brochure
             </Nav.Link>
             <Nav.Link href="/stats">Stats</Nav.Link>
+            <Nav.Link href="/sports">Sports</Nav.Link>
             <NavDropdown title="Taleem" id="basic-nav-dropdown">
               <NavDropdown.Item
                 href="http://www.atfalusa.org/ijtema/"

@@ -13,6 +13,7 @@ import {
   KHUDDAM_COUNT,
   KHUDDAM_TARGET,
   ANSAR_COUNT,
+  GUEST_COUNT,
 } from "../components/const.js";
 
 import StatsHero from "../components/StatsHero.js";
@@ -98,6 +99,7 @@ function sanitizeFormData(response) {
           khuddamCount: row[KHUDDAM_COUNT],
           khuddamTarget: row[KHUDDAM_TARGET],
           ansarCount: row[ANSAR_COUNT],
+          guestCount: row[GUEST_COUNT],
         };
         break;
       case "Majlis":

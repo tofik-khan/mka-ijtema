@@ -61,6 +61,13 @@ export default function StatsTotal({ data }) {
                   <td>{data.totals.ansarCount}</td>
                   <td></td>
                 </tr>
+                <tr>
+                  <th>Guests</th>
+                  <td></td>
+                  <td></td>
+                  <td>{data.totals.guestCount}</td>
+                  <td></td>
+                </tr>
               </tbody>
             </table>
           </Col>

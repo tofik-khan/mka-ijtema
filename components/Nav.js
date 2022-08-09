@@ -23,13 +23,7 @@ export default function Navigation() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/contact">Contacts</Nav.Link>
             <Nav.Link href="/faq">FAQs</Nav.Link>
-            <Nav.Link
-              href="/files/ijtema-info.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Brochure
-            </Nav.Link>
+            <Nav.Link href="/program">Program</Nav.Link>
             <Nav.Link href="/stats">Stats</Nav.Link>
             <Nav.Link href="/sports">Sports</Nav.Link>
             <NavDropdown title="Taleem" id="basic-nav-dropdown">

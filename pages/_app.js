@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/program.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { useEffect } from "react";
 import { SSRProvider } from "react-bootstrap";

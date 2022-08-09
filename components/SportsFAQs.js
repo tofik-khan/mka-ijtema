@@ -23,7 +23,6 @@ export default function SportsHero() {
               <li>Cricket</li>
               <li>Kabadi</li>
               <li>Obstacle Course (as part of MKA Hub)</li>
-              <li>Team Pickleball</li>
             </ul>
           </p>
           <h3 className="text-italic pt-3">

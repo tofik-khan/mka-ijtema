@@ -236,7 +236,7 @@ export default function ProgramKhuddam() {
                           <ul>
                             <li>Hifz-e-Quran</li>
                             <li>Hifz-e-Ahadith</li>
-                            <li>Hifz-e-Adi-'yyah</li>
+                            <li>Hifz-e-Adi-yyah</li>
                             <li>(6:00 PM) Team Message Relay</li>
                           </ul>
                         </Col>
@@ -265,7 +265,7 @@ export default function ProgramKhuddam() {
                 <tr>
                   <td>7:00 PM</td>
                   <td>
-                    Exhibition Match: MKA Nat'l Aamila vs. Jama'at Nat'l Aamila{" "}
+                    Exhibition Match: MKA Natl Aamila vs. Jamaat Natl Aamila{" "}
                     <br /> Regional BBQ Cook-Off &amp; dinner
                   </td>
                 </tr>

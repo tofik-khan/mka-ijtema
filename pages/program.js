@@ -8,8 +8,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import ProgramKhuddam from "../components/programKhuddam.js";
-import ProgramAtfal from "../components/programAtfal.js";
+import ProgramKhuddam from "../components/ProgramKhuddam.js";
+import ProgramAtfal from "../components/ProgramAtfal.js";
 
 import Footer from "../components/Footer.js";
 

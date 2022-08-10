@@ -187,10 +187,6 @@ export default function ProgramAtfal() {
                   <td>Salatul Maghrib &amp; Isha</td>
                 </tr>
                 <tr>
-                  <td>9:15 PM</td>
-                  <td>Special Session with Respected Ameer Sahib USA</td>
-                </tr>
-                <tr>
                   <td>10:45 PM</td>
                   <td>Prep for Bed &amp; Lights Off</td>
                 </tr>

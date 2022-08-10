@@ -9,7 +9,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import ProgramKhuddam from "../components/ProgramKhuddam.js";
-import ProgramAtfal from "../components/ProgramAtfal.js";
+//import ProgramAtfal from "../components/ProgramAtfal.js";
 
 import Footer from "../components/Footer.js";
 
@@ -48,7 +48,7 @@ export default function Program() {
             </Col>
           </Row>
         </Container>
-        {aux === "khuddam" ? <ProgramKhuddam /> : <ProgramAtfal />}
+        {aux === "khuddam" ? <ProgramKhuddam /> : <div>Atfal</div>}
       </main>
       <Footer />
     </>

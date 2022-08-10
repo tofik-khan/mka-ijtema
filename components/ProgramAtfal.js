@@ -58,7 +58,7 @@ export default function ProgramAtfal() {
                     <ul>
                       <li>Carnival Games</li>
                       <li>Delicious Snacks</li>
-                      <li>INteractive Adventures</li>
+                      <li>Interactive Adventures</li>
                       <li>Friendly Competitions</li>
                       <li>Much much more</li>
                     </ul>

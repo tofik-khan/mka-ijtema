@@ -80,14 +80,6 @@ export default function SportsHero() {
                 minute of the game)
               </li>
               <li>1 Timeout per game</li>
-              <li>
-                Free throws on all shooting fouls or intentional fouls within
-                the last minute of the game
-              </li>
-              <li>
-                Penalty kicks if the games it tied at the end of regulation. (3
-                penalty shots per team)
-              </li>
             </ul>
             <strong>Volleyball</strong>
             <ul>
@@ -100,15 +92,6 @@ export default function SportsHero() {
               <li>Only 1 team allowed per Region (2 from VA Region)</li>
               <li>11 vs 11</li>
               <li>6 over match</li>
-              <li>1 Timeout per game</li>
-              <li>
-                Free throws on all shooting fouls or intentional fouls within
-                the last minute of the game
-              </li>
-              <li>
-                Referee discretion on delay of game (i.e. holding the ball at
-                the end of games to run out the clock)
-              </li>
             </ul>
             <strong>Kabaddi</strong>
             <ul>

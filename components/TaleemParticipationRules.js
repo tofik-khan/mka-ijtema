@@ -27,11 +27,11 @@ export default function TaleemParticipationRules() {
             <br />
             Azan
             <br />
-            Prepared Speech
+            English Speech
             <br />
             English Poem
             <br />
-            Impromptu Speech
+            Impromptu Speech (Engl.)
             <br />
           </Col>
           <Col md={9} className="border border-dark py-3">
@@ -88,10 +88,15 @@ export default function TaleemParticipationRules() {
             <br />
             Hifz-e-Ahadith <br />
             Hifz-e-Adi&apos;yyah <br />
+            Urdu Speech
           </Col>
           <Col md={9} className="border border-dark py-3">
             <p>
               Anyone is allowed to participate in these individual competitions
+            </p>
+            <p>
+              <strong>NEW:</strong> Due to popular demand, Urdu Prepared Speech
+              competition will be conducted as well at National Ijtema.
             </p>
           </Col>
         </Row>

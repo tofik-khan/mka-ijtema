@@ -374,6 +374,8 @@ export default function ProgramKhuddam() {
                 <tr>
                   <td>11:30 PM</td>
                   <td>
+                    <strong>The Tipping Point</strong>
+                    <br />
                     Tabligh Session with Maulana Azhar Haneef Sahib
                     <br />
                     (Naib Ameer and Missionary In-Charge)

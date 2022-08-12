@@ -224,7 +224,7 @@ export default function ProgramAtfal() {
                 </tr>
                 <tr>
                   <td>5:30 AM</td>
-                  <td>Sleep Catch up + Table Tennis Competition</td>
+                  <td>Sleep Catch up</td>
                 </tr>
                 <tr>
                   <td>7:00 AM</td>

@@ -10,6 +10,7 @@ import Col from "react-bootstrap/Col";
 
 import ProgramKhuddam from "../components/ProgramKhuddam.js";
 import ProgramAtfal from "../components/ProgramAtfal.js";
+import ProgramShura from "../components/ProgramShura.js";
 
 import Footer from "../components/Footer.js";
 
@@ -23,9 +24,30 @@ export default function Program() {
       displayName: "Atfal",
       value: "atfal",
     },
+    {
+      displayName: "Shura",
+      value: "shura",
+    },
   ];
 
   const [aux, updateAux] = useState("khuddam");
+  let schedule;
+  switch (aux) {
+    case "khuddam":
+      schedule = <ProgramKhuddam />;
+      break;
+    case "atfal":
+      schedule = <ProgramAtfal />;
+      break;
+    case "shura":
+      schedule = <ProgramShura />;
+      break;
+
+    default:
+      let schedule = (
+        <h1 className="text-center text-error">Error: Couln't load Content</h1>
+      );
+  }
   return (
     <>
       <Header
@@ -48,7 +70,7 @@ export default function Program() {
             </Col>
           </Row>
         </Container>
-        {aux === "khuddam" ? <ProgramKhuddam /> : <ProgramAtfal />}
+        {schedule}
       </main>
       <Footer />
     </>

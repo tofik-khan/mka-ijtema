@@ -45,7 +45,7 @@ export default function Program() {
 
     default:
       let schedule = (
-        <h1 className="text-center text-error">Error: Couln't load Content</h1>
+        <h1 className="text-center text-error">Error: Can not load Content</h1>
       );
   }
   return (

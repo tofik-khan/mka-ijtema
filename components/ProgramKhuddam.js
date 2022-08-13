@@ -247,7 +247,11 @@ export default function ProgramKhuddam() {
                             <li>Hifz-e-Ahadith</li>
                             <li>Hifz-e-Adi-yyah</li>
                             <li>Urdu Speech</li>
-                            <li>(6:00 PM) Team Message Relay</li>
+                            <li>
+                              6pm: Team Message Relay
+                              <br />
+                              (By registration only)
+                            </li>
                           </ul>
                         </Col>
                         <Col md={4} xs={12}>

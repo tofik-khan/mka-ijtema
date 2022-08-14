@@ -276,7 +276,7 @@ export default function ProgramKhuddam() {
                 </tr>
                 <tr>
                   <td>5:00 PM</td>
-                  <td>Message Relay (Bay Registration Only)</td>
+                  <td>Message Relay (By Registration Only)</td>
                 </tr>
                 <tr>
                   <td>5:30 PM</td>

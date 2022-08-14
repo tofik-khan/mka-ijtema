@@ -234,7 +234,7 @@ export default function ProgramKhuddam() {
                   </td>
                 </tr>
                 <tr>
-                  <td>3:30 PM</td>
+                  <td>3:00 PM</td>
                   <td>
                     <Container>
                       <Row>
@@ -247,11 +247,6 @@ export default function ProgramKhuddam() {
                             <li>Hifz-e-Ahadith</li>
                             <li>Hifz-e-Adi-yyah</li>
                             <li>Urdu Speech</li>
-                            <li>
-                              6pm: Team Message Relay
-                              <br />
-                              (By registration only)
-                            </li>
                           </ul>
                         </Col>
                         <Col md={4} xs={12}>
@@ -281,6 +276,10 @@ export default function ProgramKhuddam() {
                 </tr>
                 <tr>
                   <td>5:00 PM</td>
+                  <td>Message Relay (Bay Registration Only)</td>
+                </tr>
+                <tr>
+                  <td>5:30 PM</td>
                   <td>
                     Air Soft and Archery Competition: Jamaat Amila vs Khuddam
                     Amila

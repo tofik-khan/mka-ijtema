@@ -359,6 +359,16 @@ export default function ProgramKhuddam() {
                   <td>Mufti Muhammad Sadiq Award Ceremony</td>
                 </tr>
                 <tr>
+                  <td>11:30 AM</td>
+                  <td>
+                    <strong>The Tipping Point</strong>
+                    <br />
+                    Tabligh Session with Maulana Azhar Haneef Sahib
+                    <br />
+                    (Naib Ameer and Missionary In-Charge)
+                  </td>
+                </tr>
+                <tr>
                   <td>12:00 PM</td>
                   <td>Closing Session &amp; Award Ceremony</td>
                 </tr>
@@ -373,16 +383,6 @@ export default function ProgramKhuddam() {
                 <tr>
                   <td>2:30 PM</td>
                   <td>Wrap Up &amp; Departure</td>
-                </tr>
-                <tr>
-                  <td>11:30 PM</td>
-                  <td>
-                    <strong>The Tipping Point</strong>
-                    <br />
-                    Tabligh Session with Maulana Azhar Haneef Sahib
-                    <br />
-                    (Naib Ameer and Missionary In-Charge)
-                  </td>
                 </tr>
               </tbody>
             </table>

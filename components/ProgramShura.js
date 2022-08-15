@@ -60,8 +60,12 @@ export default function ProgramShura() {
                   <td>Lunch &amp; Sub-Committee Meetings</td>
                 </tr>
                 <tr>
-                  <td>1:00 PM</td>
-                  <td>Jummah Prayers</td>
+                  <td>1:15 PM</td>
+                  <td>
+                    Jummah Prayers
+                    <br />
+                    (First Azan is 1:00PM)
+                  </td>
                 </tr>
                 <tr>
                   <td>2:00 PM</td>

@@ -44,8 +44,12 @@ export default function ProgramKhuddam() {
                   <td>Lunch</td>
                 </tr>
                 <tr>
-                  <td>1:30 PM</td>
-                  <td>Salatul Jumma &amp; Asr</td>
+                  <td>1:15 PM</td>
+                  <td>
+                    Jummah Prayers
+                    <br />
+                    (First Azan is 1:00PM)
+                  </td>
                 </tr>
                 <tr>
                   <td>2:00 PM</td>

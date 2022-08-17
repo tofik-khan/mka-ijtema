@@ -853,6 +853,9 @@ export default function MapPage() {
           >
             <br />
             <strong>Atfal Daftar</strong>
+            <ul>
+              <li>Information Center</li>
+            </ul>
           </Popup>
         )}
       </Map>

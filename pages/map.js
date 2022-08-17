@@ -470,7 +470,7 @@ export default function MapPage() {
             onClose={() => setShowPopupC(false)}
           >
             <br />
-            <strong>Men's Prayer Hall</strong>
+            <strong>Men Prayer Hall</strong>
             <ul>
               <li>Prayers</li>
               <li>Atfal Tarbiyyat Sessions</li>
@@ -782,7 +782,7 @@ export default function MapPage() {
             onClose={() => setShowPopupPA(false)}
           >
             <br />
-            <strong>O'Keefe Parking</strong>
+            <strong>OKeefe Parking</strong>
             <ul>
               <li>Personal Car Parking</li>
             </ul>

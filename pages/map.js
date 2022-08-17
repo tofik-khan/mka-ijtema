@@ -9,6 +9,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import Button from "react-bootstrap/Button";
+import Link from "next/link";
+
 import Footer from "../components/Footer.js";
 
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -668,10 +671,15 @@ export default function MapPage() {
               <br />
               <strong>MKA Hub</strong>
               <ul>
-                <li>MKA Cafe</li>
-                <li>MKA Car Show</li>
-                <li>Pool, Table Tennis & Air Hockey</li>
+                <li>MKA Cafe / Bazaar</li>
+                <li>Pool, Table Tennis, Air Hockey...</li>
+                <li>Special Khilafat Exhibition</li>
               </ul>
+              <div className="justify-content-center text-center">
+                <Link href="/mkahub">
+                  <Button variant="warning btn">Visit the MKA Hub</Button>
+                </Link>
+              </div>
             </Popup>
           )}
 

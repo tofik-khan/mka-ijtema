@@ -22,11 +22,11 @@ export default function ProgramShura() {
               </thead>
               <tbody>
                 <tr>
-                  <td>4:30 AM</td>
+                  <td>4:15 AM</td>
                   <td>Tahajjud</td>
                 </tr>
                 <tr>
-                  <td>5:00 AM</td>
+                  <td>5:15 AM</td>
                   <td>Fajr Prayers</td>
                 </tr>
                 <tr>
@@ -119,11 +119,11 @@ export default function ProgramShura() {
               </thead>
               <tbody>
                 <tr>
-                  <td>4:30 AM</td>
+                  <td>4:15 AM</td>
                   <td>Tahajjud</td>
                 </tr>
                 <tr>
-                  <td>5:00 AM</td>
+                  <td>5:15 AM</td>
                   <td>Fajr Prayers</td>
                 </tr>
                 <tr>

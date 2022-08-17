@@ -63,7 +63,7 @@ export default function MkaHub() {
                     <li>Gaming station</li>
                     <li>Board Games</li>
                     <li>MKA Fit</li>
-                    <li>ROR/Tabligh Escape Room</li>
+                    <li>ROR HUB - ESCAPE ROOM</li>
                     <li>Mechanical Bull</li>
                     <li>MTA booth</li>
                     <li>Exhibition</li>
@@ -130,9 +130,7 @@ export default function MkaHub() {
                 <tbody>
                   <tr>
                     <td>9:00 AM</td>
-                    <td>
-                      Review of Religion / Tabligh <br /> Escape Room
-                    </td>
+                    <td>ROR HUB - ESCAPE ROOM</td>
                   </tr>
                   <tr>
                     <td>10:00 AM</td>
@@ -146,9 +144,7 @@ export default function MkaHub() {
                       <ul>
                         <li>English Poem Competition</li>
                         <li>Mechanical Bull</li>
-                        <li>
-                          Review of Religion / Tabligh <br /> Escape Room
-                        </li>
+                        <li>ROR HUB - ESCAPE ROOM</li>
                       </ul>
                     </td>
                   </tr>

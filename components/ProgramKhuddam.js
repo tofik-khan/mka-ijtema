@@ -24,7 +24,7 @@ export default function ProgramKhuddam() {
               </thead>
               <tbody>
                 <tr>
-                  <td>5:00 AM</td>
+                  <td>5:15 AM</td>
                   <td>Salatul Fajar</td>
                 </tr>
                 <tr>
@@ -157,11 +157,11 @@ export default function ProgramKhuddam() {
               </thead>
               <tbody>
                 <tr>
-                  <td>4:00 AM</td>
+                  <td>4:15 AM</td>
                   <td>Tahajjud</td>
                 </tr>
                 <tr>
-                  <td>5:00 AM</td>
+                  <td>5:15 AM</td>
                   <td>Salatul Fajr &amp; Dars</td>
                 </tr>
                 <tr>
@@ -331,11 +331,11 @@ export default function ProgramKhuddam() {
               </thead>
               <tbody>
                 <tr>
-                  <td>4:00 AM</td>
+                  <td>4:15 AM</td>
                   <td>Tahajjud</td>
                 </tr>
                 <tr>
-                  <td>4:45 AM</td>
+                  <td>5:15 AM</td>
                   <td>Salatul Fajr &amp; Dars</td>
                 </tr>
                 <tr>

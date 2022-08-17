@@ -35,14 +35,18 @@ export default function Register() {
           </Row>
         </Container>
         <Container className="py-5">
-          <Row>
-            <Col>
-              Pre-registration has closed. Please register on-site when you
-              arrive at Ijtema. If you need any assistance with airport pickup
-              or drop-off, please contact Nazim Transportation (Abdul Majeed) at{" "}
-              <a href="tel:(240) 564-3348">(240) 564-3348</a>. Alternatively,
-              you can contact Ansar Malik at{" "}
-              <a href="tel:(240) 491-7750">(240) 491-7750</a>. JazakAllah.
+          <Row className="justify-content-center">
+            <Col xs={6}>
+              <strong>Pre-registration has closed.</strong>
+              <br /> Please register on-site when you arrive at Ijtema.
+              <p className="mt-3">
+                If you need any assistance with airport pickup or drop-off,
+                please contact Nazim Transportation (Abdul Majeed) at{" "}
+                <a href="tel:(240) 564-3348">(240) 564-3348</a>. Alternatively,
+                you can contact Ansar Malik at{" "}
+                <a href="tel:(240) 491-7750">(240) 491-7750</a>.
+              </p>{" "}
+              JazakAllah.
             </Col>
           </Row>
         </Container>

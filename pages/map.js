@@ -875,7 +875,7 @@ export default function MapPage() {
               <br />
               B - BRM Basement
               <br />
-              C - BRM Men's Prayer Hall
+              C - BRM Mens Prayer Hall
               <br />
               D - Dining Tent
               <br />
@@ -897,7 +897,7 @@ export default function MapPage() {
               <br />
               PS - Private Sleeping Tents
               <br />
-              PA - O'Keefe Parking
+              PA - OKeefe Parking
               <br />
               (Field Across BRM)
             </Col>

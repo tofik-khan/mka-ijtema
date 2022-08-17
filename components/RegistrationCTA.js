@@ -11,9 +11,9 @@ export default function RegistrationCTA() {
     >
       <h2 className={styles.title}>Check out what this Ijtema brings!</h2>
       <div className={styles.content + " py-2"}>
-        <a href="/program">
+        <Link href="/program">
           <Button variant="outline-warning btn-lg">Ijtema Program</Button>
-        </a>
+        </Link>
       </div>
     </div>
   );

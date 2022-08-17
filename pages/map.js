@@ -28,6 +28,7 @@ export default function MapPage() {
   const [showPopupPA, setShowPopupPA] = useState(false);
   const [showPopupPS, setShowPopupPS] = useState(false);
   const [showPopupR, setShowPopupR] = useState(false);
+  const [showPopupAD, setShowPopupAD] = useState(false);
 
   // TENT A
   const geojsonA = {
@@ -356,6 +357,33 @@ export default function MapPage() {
 
   const layerDataPA = {
     id: "Tent-PA",
+    type: "fill",
+    paint: {
+      "fill-color": "#0080ff", // blue color fill
+      "fill-opacity": overlayFillOpacity,
+    },
+  };
+
+  // TENT AD
+  const geojsonAD = {
+    type: "Feature",
+    geometry: {
+      type: "Polygon",
+      // These coordinates outline Maine.
+      coordinates: [
+        [
+          [-76.98269918560982, 39.10299227692426],
+          [-76.98250606656075, 39.10308385979895],
+          [-76.98258653283119, 39.10317023899217],
+          [-76.9827689230442, 39.1030817783713],
+          [-76.98269918560982, 39.10299227692426],
+        ],
+      ],
+    },
+  };
+
+  const layerDataAD = {
+    id: "Tent-AD",
     type: "fill",
     paint: {
       "fill-color": "#0080ff", // blue color fill
@@ -796,6 +824,35 @@ export default function MapPage() {
             <ul>
               <li>Personal Car Parking</li>
             </ul>
+          </Popup>
+        )}
+
+        {/* TENT AD: Atfal Daftar  */}
+        <Source id="Tent-AD" type="geojson" data={geojsonAD}>
+          <Layer {...layerDataAD} />
+        </Source>
+        <Marker
+          longitude={-76.98263749480247}
+          latitude={39.10307657480191}
+          className="marker"
+          onClick={(e) => {
+            e.originalEvent.stopPropagation();
+            setShowPopupAD(true);
+          }}
+        >
+          <img src="./map-markers/AD.png" />
+        </Marker>
+
+        {showPopupAD && (
+          <Popup
+            longitude={-76.98263749480247}
+            latitude={39.10307657480191}
+            anchor="bottom"
+            className="map-popup"
+            onClose={() => setShowPopupAD(false)}
+          >
+            <br />
+            <strong>Atfal Daftar</strong>
           </Popup>
         )}
       </Map>

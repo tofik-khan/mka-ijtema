@@ -9,14 +9,10 @@ export default function RegistrationCTA() {
         styles.registrionCtaContainer + " text-center py-5 text-bg-dark"
       }
     >
-      <h2 className={styles.title}>Join your brothers!</h2>
+      <h2 className={styles.title}>Check out what this Ijtema brings!</h2>
       <div className={styles.content + " py-2"}>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://mkausa.wufoo.com/forms/2022-national-khuddam-atfal-ijtema-registration/"
-        >
-          <Button variant="outline-warning btn-lg">Register Now</Button>
+        <a href="/program">
+          <Button variant="outline-warning btn-lg">Ijtema Program</Button>
         </a>
       </div>
     </div>

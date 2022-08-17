@@ -42,8 +42,8 @@ export default function MkaHub() {
               exhibition. Or if you just want to relax with some friends, invite
               them to a friendly foosball competition or game of pool. Test your
               strength at the MKA Fit station or see how long you can hang on at
-              our exclusive mechanical bull. There so much happening, you don't
-              want to miss it!
+              our exclusive mechanical bull. There so much happening, you
+              don&apos;t want to miss it!
             </Col>
           </Row>
         </Container>

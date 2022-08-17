@@ -22,3 +22,12 @@
 .marker {
   cursor: pointer;
 }
+
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  margin-right: 20px;
+  border-radius: 3px;
+}

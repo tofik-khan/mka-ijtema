@@ -38,7 +38,7 @@ export default function MkaHub() {
               <br />
               Come by to the MKA Café to purchase a gourmet latte and a slice of
               cake, or make a stop at our 24 hour convenience store to get all
-              you snacking needs. Walk through our interactive khilafat
+              your snacking needs. Walk through our interactive Khilafat
               exhibition. Or if you just want to relax with some friends, invite
               them to a friendly foosball competition or game of pool. Test your
               strength at the MKA Fit station or see how long you can hang on at

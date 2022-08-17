@@ -24,7 +24,7 @@ export default function Register() {
       />
       <Nav />
       <main className="mainContent">
-        <Container>
+        <Container className="py-5">
           <Row className="text-center text-md-left align-content-center">
             <Col sm={12} md={6}>
               <Image src="/Ijtema-logo.png" width={300} height={300} />
@@ -34,12 +34,12 @@ export default function Register() {
             </Col>
           </Row>
         </Container>
-        <Container>
+        <Container className="py-5">
           <Row>
             <Col>
               Pre-registration has closed. Please register on-site when you
-              arrive at Ijtema. If you need airport pickup or drop-off, please
-              contact Nazim Transportation (Abdul Majeed) at{" "}
+              arrive at Ijtema. If you need any assistance with airport pickup
+              or drop-off, please contact Nazim Transportation (Abdul Majeed) at{" "}
               <a href="tel:(240) 564-3348">(240) 564-3348</a>. Alternatively,
               you can contact Ansar Malik at{" "}
               <a href="tel:(240) 491-7750">(240) 491-7750</a>. JazakAllah.

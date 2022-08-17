@@ -473,9 +473,8 @@ export default function MapPage() {
             <strong>Men Prayer Hall</strong>
             <ul>
               <li>Prayers</li>
-              <li>Atfal Tarbiyyat Sessions</li>
-              <li>Atfal Taleem Competitions</li>
-              <li>Atfal Closing Ceremony</li>
+              <li>Taleem &amp; Tarbiyyat</li>
+              <li>Atfal Sleeping Area B</li>
             </ul>
           </Popup>
         )}
@@ -603,6 +602,8 @@ export default function MapPage() {
               <li>Registration</li>
               <li>Ijtema Daftar</li>
               <li>First Aid</li>
+              <li>Department Stalls</li>
+              <li>Information and Lost &amp; Found</li>
             </ul>
           </Popup>
         )}
@@ -667,6 +668,9 @@ export default function MapPage() {
           >
             <br />
             <strong>Lajna Prayer Hall</strong>
+            <ul>
+              <li>Atfal Sleeping Area</li>
+            </ul>
           </Popup>
         )}
 
@@ -725,6 +729,9 @@ export default function MapPage() {
           >
             <br />
             <strong>Sleeping Tent</strong>
+            <ul>
+              <li>Khuddam sleeping area</li>
+            </ul>
           </Popup>
         )}
 
@@ -754,6 +761,9 @@ export default function MapPage() {
           >
             <br />
             <strong>Private Sleeping Tents</strong>
+            <ul>
+              <li>Bring your own personal tents</li>
+            </ul>
           </Popup>
         )}
 

@@ -52,10 +52,6 @@ export default function ProgramKhuddam() {
                   </td>
                 </tr>
                 <tr>
-                  <td>2:00 PM</td>
-                  <td>Flag Hoisting + Dua</td>
-                </tr>
-                <tr>
                   <td>2:15 PM</td>
                   <td>
                     <Container>
@@ -359,8 +355,18 @@ export default function ProgramKhuddam() {
                   </td>
                 </tr>
                 <tr>
-                  <td>11:00 AM</td>
+                  <td>10:00 AM</td>
                   <td>Mufti Muhammad Sadiq Award Ceremony</td>
+                </tr>
+                <tr>
+                  <td>11:00 AM</td>
+                  <td>
+                    <strong>
+                      Live Stream: Concluding Address of Jalsa Salana Germany
+                      <br />
+                      Hazrat Khalifatul Masih V (aba)
+                    </strong>
+                  </td>
                 </tr>
                 <tr>
                   <td>11:30 AM</td>

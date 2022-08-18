@@ -52,10 +52,6 @@ export default function ProgramAtfal() {
                   </td>
                 </tr>
                 <tr>
-                  <td>2:00 PM</td>
-                  <td>Flag Hoisting + Dua</td>
-                </tr>
-                <tr>
                   <td>2:15 PM</td>
                   <td>
                     <strong>Atfal Fair</strong>
@@ -75,6 +71,10 @@ export default function ProgramAtfal() {
                   <td>
                     <strong>Atfal Ijtema Opening Session</strong>
                   </td>
+                </tr>
+                <tr>
+                  <td>6:00 PM</td>
+                  <td>Flag Hoisting + Dua</td>
                 </tr>
                 <tr>
                   <td>7:30 PM</td>
@@ -257,6 +257,16 @@ export default function ProgramAtfal() {
                     <strong>Prize Distribution</strong>
                     <br />
                     2nd &amp; 3rd positions
+                  </td>
+                </tr>
+                <tr>
+                  <td>11:00 AM</td>
+                  <td>
+                    <strong>
+                      Live Stream: Concluding Address of Jalsa Salana Germany
+                      <br />
+                      Hazrat Khalifatul Masih V (aba)
+                    </strong>
                   </td>
                 </tr>
                 <tr>

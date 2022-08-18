@@ -104,7 +104,11 @@ export default function ProgramKhuddam() {
                     <strong>6:00 PM</strong>
                   </td>
                   <td>
-                    <strong>Khuddam Ijtema Opening Session</strong>
+                    <strong>
+                      Flag Hoisting + Dua
+                      <br />
+                      Khuddam Ijtema Opening Session
+                    </strong>
                   </td>
                 </tr>
                 <tr>

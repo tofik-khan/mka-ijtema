@@ -351,7 +351,7 @@ export default function ProgramKhuddam() {
                   <td>Breakfast + Waqar-e-Amal</td>
                 </tr>
                 <tr>
-                  <td>9:00 AM</td>
+                  <td>8:20 AM</td>
                   <td>
                     <strong>Taleem Competition Finals</strong>
                     <br />* Audience voting will count toward the total score of

@@ -20,10 +20,18 @@ export default function Navigation() {
         </Navbar.Toggle>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link href="/">Home</Nav.Link>
+            <NavDropdown title="Info" id="nav-info-dropdown">
+              <NavDropdown.Item href="/files/ijtema-info.pdf">
+                Khuddam Info
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/files/atfal-info.pdf">
+                Atfal Info
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/faq">FAQs</NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link href="/contact">Contacts</Nav.Link>
-            <Nav.Link href="/faq">FAQs</Nav.Link>
             <Nav.Link href="/program">Program</Nav.Link>
+            <Nav.Link href="/mkahub">MKAHub</Nav.Link>
             <Nav.Link href="/map">Site Map</Nav.Link>
             <Nav.Link href="/sports">Sports</Nav.Link>
             <NavDropdown title="Taleem" id="basic-nav-dropdown">

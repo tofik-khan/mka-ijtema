@@ -373,7 +373,7 @@ export default function ProgramKhuddam() {
                   </td>
                 </tr>
                 <tr>
-                  <td>11:30 AM</td>
+                  <td>10:30 AM</td>
                   <td>
                     <strong>The Tipping Point</strong>
                     <br />

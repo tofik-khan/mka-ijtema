@@ -343,6 +343,10 @@ export default function ProgramKhuddam() {
                   <td>Sleep Catch up</td>
                 </tr>
                 <tr>
+                  <td>6:00 AM</td>
+                  <td>Sports Competitions (As needed)</td>
+                </tr>
+                <tr>
                   <td>7:00 AM</td>
                   <td>Breakfast</td>
                 </tr>
@@ -359,8 +363,22 @@ export default function ProgramKhuddam() {
                   </td>
                 </tr>
                 <tr>
-                  <td>10:00 AM</td>
+                  <td>9:30 AM</td>
                   <td>Mufti Muhammad Sadiq Award Ceremony</td>
+                </tr>
+                <tr>
+                  <td>9:45 AM</td>
+                  <td>
+                    <strong>Closing Session</strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>10:30 AM</td>
+                  <td>
+                    <strong>The Tipping Point</strong>
+                    <br />
+                    Ijtema Final Remarks by Mulana Azhar Haneef Sahib
+                  </td>
                 </tr>
                 <tr>
                   <td>11:00 AM</td>
@@ -372,27 +390,14 @@ export default function ProgramKhuddam() {
                     </strong>
                   </td>
                 </tr>
+
                 <tr>
-                  <td>10:30 AM</td>
-                  <td>
-                    <strong>The Tipping Point</strong>
-                    <br />
-                    Tabligh Session with Maulana Azhar Haneef Sahib
-                    <br />
-                    (Naib Ameer and Missionary In-Charge)
-                  </td>
-                </tr>
-                <tr>
-                  <td>12:00 PM</td>
-                  <td>Closing Session &amp; Award Ceremony</td>
+                  <td>12:30 PM</td>
+                  <td>Lunch</td>
                 </tr>
                 <tr>
                   <td>1:30 PM</td>
                   <td>Salatul Zuhr &amp; Asr</td>
-                </tr>
-                <tr>
-                  <td>2:00 PM</td>
-                  <td>To-Go Lunch</td>
                 </tr>
                 <tr>
                   <td>2:30 PM</td>

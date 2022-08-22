@@ -2,11 +2,10 @@ import Head from "next/head";
 import React from "react";
 
 import Nav from "../components/Nav.js";
-
 import Hero from "../components/Hero.js";
-import HuzoorHero from "../components/HomeHuzoorHero.js";
-import HomeHero from "../components/HomeHero.js";
-
+import InfoContainer from "../components/InfoContainer.js";
+import RegistrationCTA from "../components/RegistrationCTA.js";
+import HomeRegistrationBlurb from "../components/HomeRegistrationBlurb.js";
 import Moments from "../components/Moments.js";
 import Footer from "../components/Footer.js";
 
@@ -31,8 +30,11 @@ export default function Home() {
       </Head>
       <Nav />
       <main className="mainContent">
-        <HuzoorHero />
-        <HomeHero />
+        <Hero />
+        <InfoContainer />
+        <RegistrationCTA />
+        <HomeRegistrationBlurb />
+        <Moments />
       </main>
       <Footer />
     </>

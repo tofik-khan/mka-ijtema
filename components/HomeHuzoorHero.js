@@ -20,15 +20,20 @@ export default function HuzoorHero() {
             Message from Beloved Huzoor (a.b.a) for MKA National Ijtema
           </h2>
           <p className="text-start">
-            &ldquo;It should be kept in mind that unless we truly reform
-            ourselves, this purpose will be difficult for us to achieve.
-            Therefore, it is of utmost importance that we better and refine our
-            personal lives, by following the teachings of Holy Quran, being
-            devoted and sincere in our worship and prayers to Allah and by
-            scrupulously adhering to the tenets of our faith. If we are able to
-            fulfil these responsibilities, only then would we be able to benefit
-            from being an Ahmadi Khadim or an Ahmadi youngster. Otherwise, there
-            would be no difference between us and any other person.&rdquo;
+            &ldquo;Dear members of Majlis Khuddamul Ahmadiyya USA,
+          </p>
+          <p className="text-center">
+            السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ
+          </p>
+          <p className="text-start">
+            Your Sadr Sahib had requested me to send you a message for your
+            Annual National Ijtima. My message for you on this blessed occasion
+            is that Allah Ta`ala has revived for us the true teachings of Islam
+            through the advent of the Promised Messiah (as). At many places, the
+            Promised Messiah (as) has elaborated that the underlying and primary
+            purpose of his coming is to inculcate in man a sincere devotion, so
+            that he may strive to his utmost to fulfil the rights of Allah and
+            the rights towards His creation...&rdquo;
           </p>
           <div className="py-3 text-center">
             <Link href="/message-from-huzoor">

@@ -131,7 +131,8 @@ export default function HuzoorHero() {
               Khilafat-e-Ahmadiyya and may Allah bless your Ijtima in every way
               and enable you all to benefit from its various programs and
               activities.
-              <br />  <em>Amin</em>
+              <br />
+               <em>Amin</em>
             </Col>
           </Row>
           <Row className="justify-content-center py-3">

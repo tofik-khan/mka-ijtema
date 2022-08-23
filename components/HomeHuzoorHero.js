@@ -20,15 +20,15 @@ export default function HuzoorHero() {
             Message from Beloved Huzoor (a.b.a) for MKA National Ijtema
           </h2>
           <p className="text-start">
-            "It should be kept in mind that unless we truly reform ourselves,
-            this purpose will be difficult for us to achieve. Therefore, it is
-            of utmost importance that we better and refine our personal lives,
-            by following the teachings of Holy Quran, being devoted and sincere
-            in our worship and prayers to Allah and by scrupulously adhering to
-            the tenets of our faith. If we are able to fulfil these
-            responsibilities, only then would we be able to benefit from being
-            an Ahmadi Khadim or an Ahmadi youngster. Otherwise, there would be
-            no difference between us and any other person."
+            &ldquo;It should be kept in mind that unless we truly reform
+            ourselves, this purpose will be difficult for us to achieve.
+            Therefore, it is of utmost importance that we better and refine our
+            personal lives, by following the teachings of Holy Quran, being
+            devoted and sincere in our worship and prayers to Allah and by
+            scrupulously adhering to the tenets of our faith. If we are able to
+            fulfil these responsibilities, only then would we be able to benefit
+            from being an Ahmadi Khadim or an Ahmadi youngster. Otherwise, there
+            would be no difference between us and any other person.&rdquo;
           </p>
           <div className="py-3 text-center">
             <Link href="/message-from-huzoor">

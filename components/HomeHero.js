@@ -4,6 +4,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import Button from "react-bootstrap/Button";
+import Link from "next/link";
+
 import Image from "next/image";
 
 export default function HomeHero() {
@@ -22,6 +25,11 @@ export default function HomeHero() {
               <br />
               Ijtema 2022
             </h1>
+            <Link href="https://mkausa.wufoo.com/forms/national-ijtema-2022-survey/">
+              <Button variant="outline-warning btn-lg" className="my-5">
+                Take the Survey
+              </Button>
+            </Link>
           </Col>
         </Row>
       </Container>

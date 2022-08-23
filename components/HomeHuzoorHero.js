@@ -31,7 +31,7 @@ export default function HuzoorHero() {
             no difference between us and any other person.
           </p>
           <div className="py-3 text-center">
-            <Link href="/files/letter-from-huzoor.pdf">
+            <Link href="/message-from-huzoor">
               <Button variant="warning btn-lg">Read Full Message</Button>
             </Link>
           </div>

@@ -45,7 +45,7 @@ export default function HuzoorHero() {
             </Col>
           </Row>
           <Row className="justify-content-center">
-            <Col xs={8}>
+            <Col md={8}>
               <p>Dear members of Majlis Khuddamul Ahmadiyya USA,</p>
               <p className="text-center">
                 السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّهِ وَبَرَكاتُهُ
@@ -61,7 +61,7 @@ export default function HuzoorHero() {
                 his utmost to fulfil the rights of Allah and the rights towards
                 His creation. He should be mindful of his duties in this regard
                 and seek to please his Creator to the best of his abilities. We
-                should try to endeavour to conduct our lives according to the
+                should try to endeavour to conduct our lives according to to the
                 true teachings of Islam and in accordance with the injunctions
                 of Allah Ta`ala.
               </p>
@@ -91,12 +91,12 @@ export default function HuzoorHero() {
             </Col>
           </Row>
           <Row className="justify-content-center">
-            <Col xs={6}>
+            <Col xs={10} md={6}>
               <p>The Promised Messiah (as) states at one place:</p>
             </Col>
           </Row>
           <Row className="justify-content-center">
-            <Col xs={6}>
+            <Col xs={10} md={6}>
               “The spiritual beauty of man is to walk along all the finer ways
               of righteousness. They are the attractive features of spiritual
               beauty. It is obvious that to be mindful of the trusts of God
@@ -124,26 +124,29 @@ export default function HuzoorHero() {
             </Col>
           </Row>
           <Row className="justify-content-center py-3">
-            <Col xs={8}>
+            <Col md={8}>
               May Allah Ta`ala enable us all to fulfil our obligations and
               responsibilities in a manner that is pleasing in Allah’s sight.
               May Allah strengthen your bond and relationship with
               Khilafat-e-Ahmadiyya and may Allah bless your Ijtima in every way
               and enable you all to benefit from its various programs and
               activities.
-              <br />
-               <em>Amin</em>
+              <br /> <em>Amin</em>
             </Col>
           </Row>
           <Row className="justify-content-center py-3">
-            <Col xs={8}>
+            <Col md={8}>
               <em>Wassalam</em>
               <br />
               Yours sincerely,
               <br />
               <strong>  Mirza Masroor Ahmad </strong>
               <br />
-              Khalifatul-Masih V
+              <em>Khalifatul-Masih V</em>
+              <br />
+              <br />
+              <br />
+              <small>Copy PS Office</small>
             </Col>
           </Row>
           <Row className="text-center py-5">

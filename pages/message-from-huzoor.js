@@ -61,7 +61,7 @@ export default function HuzoorHero() {
                 his utmost to fulfil the rights of Allah and the rights towards
                 His creation. He should be mindful of his duties in this regard
                 and seek to please his Creator to the best of his abilities. We
-                should try to endeavour to conduct our lives according [to] the
+                should try to endeavour to conduct our lives according to the
                 true teachings of Islam and in accordance with the injunctions
                 of Allah Ta`ala.
               </p>
@@ -73,8 +73,8 @@ export default function HuzoorHero() {
                 Almighty created a responsibility upon each one of us as to
                 safeguard the institution of Khilafat-e-Ahmadiyya from various
                 forms of mischievous acts and plans that the opponents may
-                devise by upholding our faith, love, obedience, and sincerity
-                for Khilafat.
+                devise by upholding our faith, love obedience, and sincerity for
+                Khilafat.
               </p>
               <p>
                 It should be kept in mind that unless we truly reform ourselves,
@@ -108,18 +108,19 @@ export default function HuzoorHero() {
               occasions, and to be warned against the subtle attacks of vice and
               to be mindful of the rights of one’s fellow beings, is the way of
               perfecting one’s spiritual beauty. God Almighty has in the Holy
-              Qur’an designated righteousness as a raiment. “Libas-ut-taqwa” is
-              an expression of the Holy Quran. This is an indication that
-              spiritual beauty and spiritual ornament are achieved through
-              righteousness. Righteousness means that one must be mindful of
-              even the smallest details of the divine trusts and covenants and
-              also of all the trusts and covenants of one’s fellow beings, as
-              far as it may be possible. That is, one must try to fulfil, to the
-              best of one’s ability, all the requirements in their minutest
-              details.”
-              <br />
-              (Brahin-e-Ahmadiyya, Part V, Ruhani Khaza’in, vol. 21, pp.
-              209-210)
+              Qur’an designated righteousness as a raiment. “
+              <em>Libas-ut-taqwa</em>” is an expression of the Holy Quran. This
+              is an indication that spiritual beauty and spiritual ornament are
+              achieved through righteousness. Righteousness means that one must
+              be mindful of even the smallest details of the divine trusts and
+              covenants and also of all the trusts and covenants of one’s fellow
+              beings, as far as it may be possible. That is, one must try to
+              fulfil, to the best of one’s ability, all the requirements in
+              their minutest details.”
+              <small>
+                (Brahin-e-Ahmadiyya, Part V, Ruhani Khaza’in, vol. 21, pp.
+                209-210)
+              </small>
             </Col>
           </Row>
           <Row className="justify-content-center py-3">
@@ -130,12 +131,12 @@ export default function HuzoorHero() {
               Khilafat-e-Ahmadiyya and may Allah bless your Ijtima in every way
               and enable you all to benefit from its various programs and
               activities.
-              <br />  Amin
+              <br />  <em>Amin</em>
             </Col>
           </Row>
           <Row className="justify-content-center py-3">
             <Col xs={8}>
-              Wassalam
+              <em>Wassalam</em>
               <br />
               Yours sincerely,
               <br />

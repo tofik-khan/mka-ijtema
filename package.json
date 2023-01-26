@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0-beta1",
+    "bootstrap": "^5.2.3",
     "chart.js": "^3.9.1",
     "express": "^4.18.1",
     "googleapis": "^104.0.0",

@@ -11,12 +11,12 @@ export default function InfoContainer() {
           <Col sm={12} md={4} className="my-3">
             <h3 className={styles.infoContainerLabel}>Theme</h3>
             <div className={styles.infoContainerTextItalic}>
-              Living Connection with Allah
+              Holy Quran: Our Guiding Light
             </div>
           </Col>
           <Col sm={12} md={4} className="my-3">
             <h3 className={styles.infoContainerLabel}>Dates</h3>
-            <div className={styles.infoContainerTextItalic}>Aug 19-21 2022</div>
+            <div className={styles.infoContainerTextItalic}>June 23-25 2022</div>
           </Col>
           <Col sm={12} md={4} className="my-3">
             <h3 className={styles.infoContainerLabel}>Venue</h3>

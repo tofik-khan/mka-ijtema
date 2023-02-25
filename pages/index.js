@@ -4,11 +4,15 @@ import React from "react";
 import Nav from "../components/Nav.js";
 
 import Hero from "../components/Hero.js";
-import HuzoorHero from "../components/HomeHuzoorHero.js";
-import HomeHero from "../components/HomeHero.js";
+import InfoContainer from "../components/InfoContainer.js";
 
 import Moments from "../components/Moments.js";
 import Footer from "../components/Footer.js";
+import YoutubeEmbed from "../components/YoutubeEmbed.js";
+
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default function Home() {
   return (
@@ -31,8 +35,17 @@ export default function Home() {
       </Head>
       <Nav />
       <main className="mainContent">
-        <HuzoorHero />
-        <HomeHero />
+        <Hero />
+        <InfoContainer />
+        <Container>
+        <h2 className="my-5 text-center">Message from Our Imam!</h2>
+          <Row className="justify-content-center">
+            <Col xs={10} md={8}>
+              <YoutubeEmbed embedId="EjOzV1tELbc" />
+            </Col>
+          </Row>
+        </Container>
+        <Moments />
       </main>
       <Footer />
     </>

@@ -22,7 +22,7 @@ export default function Hero() {
               <br />
               Ijtema
               <br />
-              2022
+              2023
             </h1>
           </Col>
         </Row>

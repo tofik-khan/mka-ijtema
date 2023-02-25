@@ -20,30 +20,10 @@ export default function Navigation() {
         </Navbar.Toggle>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <NavDropdown title="Info" id="nav-info-dropdown">
-              <NavDropdown.Item href="/files/ijtema-info.pdf">
-                Khuddam Info
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/files/atfal-info.pdf">
-                Atfal Info
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/faq">FAQs</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="/contact">Contacts</Nav.Link>
-            <Nav.Link href="/program">Program</Nav.Link>
-            <Nav.Link href="/mkahub">MKAHub</Nav.Link>
-            <Nav.Link href="/map">Site Map</Nav.Link>
-            <Nav.Link href="/sports">Sports</Nav.Link>
-            <NavDropdown title="Taleem" id="basic-nav-dropdown">
-              <NavDropdown.Item
-                href="http://www.atfalusa.org/ijtema/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Atfal
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/taleem">Khuddam</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="https://www.atfalusa.org/ijtema/" target="_blank"
+                rel="noreferrer">Atfal Syllabus</Nav.Link>
+            <Nav.Link href="https://khudd.am/syllabus2023" target="_blank"
+                rel="noreferrer">Khuddam Syllabus</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

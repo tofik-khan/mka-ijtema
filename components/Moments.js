@@ -13,6 +13,15 @@ export default function Moments() {
     <Container className="my-5 pt-5">
       <h2 className="my-5 text-center">Memories from Past Ijtema</h2>
       <Row className="my-3">
+      <Col lg={4} md={6} className="mb-3">
+          <MomentsCard
+            content={{
+              image: "2022.jpg",
+              title: "2022 - Bait ur Rehman",
+              album: "https://flic.kr/s/aHBqjA49Bx",
+            }}
+          />
+        </Col>
         <Col lg={4} md={6} className="mb-3">
           <MomentsCard
             content={{
@@ -55,15 +64,6 @@ export default function Moments() {
               image: "2016.jpg",
               title: "2016 - Yosemite",
               album: "https://flic.kr/s/aHskxFvxrW",
-            }}
-          />
-        </Col>
-        <Col lg={4} md={6} className="mb-3">
-          <MomentsCard
-            content={{
-              image: "2014.jpg",
-              title: "2014 - Pennsylvania",
-              album: "https://flic.kr/s/aHsk35Bkqi",
             }}
           />
         </Col>

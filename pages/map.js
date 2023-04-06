@@ -4,6 +4,7 @@ import Map, { Source, Layer } from "react-map-gl";
 import { geojsonNW, layerDataNW } from "../data/geoJSON/northwest.js";
 import { geojsonSW, layerDataSW } from "../data/geoJSON/southwest.js";
 import { geojsonGulf, layerDataGulf } from "../data/geoJSON/gulf.js";
+import { geojsonSE, layerDataSE } from "../data/geoJSON/southeast.js";
 
 import { Modal, Button } from "react-bootstrap";
 
@@ -37,6 +38,12 @@ const regionalIjtemaInfo = [
     title: "Gulf Regional Ijtema",
     date: "May 20 - 21",
     location: "Bait-ul-Ikram - Dallas, TX",
+  },
+  {
+    id: "SouthEast",
+    title: "Southeast Regional Ijtema",
+    date: "May 19 - 21",
+    location: "Bait-ul-Ata - Atlanta, GA",
   },
 ];
 
@@ -77,7 +84,7 @@ export default function MapPage() {
             //console.log("lat: " + event.viewState.latitude, "long: " + event.viewState.longitude, "zoom: " + event.viewState.zoom)
             //console.log(event)
           }}
-          interactiveLayerIds={["NorthWest", "SouthWest", "Gulf"]}
+          interactiveLayerIds={["NorthWest", "SouthWest", "Gulf", "SouthEast"]}
           onClick={(event) => {
             updateShowModal(true);
             updateModalContent(
@@ -97,6 +104,10 @@ export default function MapPage() {
 
           <Source id="Gulf" type="geojson" data={geojsonGulf}>
             <Layer {...layerDataGulf} />
+          </Source>
+
+          <Source id="SouthEast" type="geojson" data={geojsonSE}>
+            <Layer {...layerDataSE} />
           </Source>
 
           <Source id="States" type="geojson" data={statesJSON}>

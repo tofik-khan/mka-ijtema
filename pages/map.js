@@ -10,6 +10,7 @@ import { geojsonMD, layerDataMD } from "../data/geoJSON/muqami.js";
 import { geojsonE, layerDataE } from "../data/geoJSON/east.js";
 import { geojsonNY, layerDataNY } from "../data/geoJSON/newyork.js";
 import { geojsonNE, layerDataNE } from "../data/geoJSON/northeast.js";
+import { geojsonGL, layerDataGL } from "../data/geoJSON/greatlakes.js";
 
 import { Modal, Button } from "react-bootstrap";
 
@@ -80,6 +81,12 @@ const regionalIjtemaInfo = [
     date: "May 06",
     location: "Baitul Nûr - Albany, NY.",
   },
+  {
+    id: "GreakLakes",
+    title: "Greak Lakes Regional Ijtema",
+    date: "May 05-06",
+    location: "Masjid Mahmood - Detroit, MI",
+  },
 ];
 
 export default function MapPage() {
@@ -129,6 +136,7 @@ export default function MapPage() {
             "East",
             "NewYork",
             "NorthEast",
+            "GreakLakes",
           ]}
           onClick={(event) => {
             updateShowModal(true);
@@ -173,6 +181,10 @@ export default function MapPage() {
 
           <Source id="NorthEast" type="geojson" data={geojsonNE}>
             <Layer {...layerDataNE} />
+          </Source>
+
+          <Source id="GreakLakes" type="geojson" data={geojsonGL}>
+            <Layer {...layerDataGL} />
           </Source>
 
           <Source id="States" type="geojson" data={statesJSON}>

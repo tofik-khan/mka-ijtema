@@ -6,6 +6,7 @@ import { geojsonSW, layerDataSW } from "../data/geoJSON/southwest.js";
 import { geojsonGulf, layerDataGulf } from "../data/geoJSON/gulf.js";
 import { geojsonSE, layerDataSE } from "../data/geoJSON/southeast.js";
 import { geojsonVA, layerDataVA } from "../data/geoJSON/virginia.js";
+import { geojsonMD, layerDataMD } from "../data/geoJSON/muqami.js";
 
 import { Modal, Button } from "react-bootstrap";
 
@@ -52,6 +53,12 @@ const regionalIjtemaInfo = [
     date: "May 20 - 21",
     location: "Mubarak Mosque, NVA",
   },
+  {
+    id: "Muqami",
+    title: "Muqami Regional Ijtema",
+    date: "May 20",
+    location: "Masjid Bait-ur-Rahman",
+  },
 ];
 
 export default function MapPage() {
@@ -97,6 +104,7 @@ export default function MapPage() {
             "Gulf",
             "SouthEast",
             "Virginia",
+            "Muqami",
           ]}
           onClick={(event) => {
             updateShowModal(true);
@@ -125,6 +133,10 @@ export default function MapPage() {
 
           <Source id="Virginia" type="geojson" data={geojsonVA}>
             <Layer {...layerDataVA} />
+          </Source>
+
+          <Source id="Muqami" type="geojson" data={geojsonMD}>
+            <Layer {...layerDataMD} />
           </Source>
 
           <Source id="States" type="geojson" data={statesJSON}>

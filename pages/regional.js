@@ -38,6 +38,7 @@ const regionalIjtemaInfo = [
     date: "May 19 - 21",
     location:
       "Camp Nawakwa, Big Bear, 4650 Jenks Lake Rd E, Angelus Oaks, CA 92305",
+    register: "https://tinyurl.com/swijtema23",
   },
   {
     id: "Gulf",
@@ -50,12 +51,14 @@ const regionalIjtemaInfo = [
     title: "Southeast Regional Ijtema",
     date: "May 19 - 21",
     location: "Bait-ul-Ata - Atlanta, GA",
+    register: "http://tinyurl.com/mkausa2023",
   },
   {
     id: "Virginia",
     title: "Virginia Regional Ijtema",
     date: "May 20 - 21",
     location: "Mubarak Mosque, NVA",
+    register: "https://khudd.am/vaijtema2023",
   },
   {
     id: "Muqami",
@@ -74,18 +77,21 @@ const regionalIjtemaInfo = [
     title: "New York Metro Regional Ijtema",
     date: "May 07",
     location: "Long Island Mosque ",
+    register: "https://forms.gle/rj4x4S2jiMbhpxQJ9",
   },
   {
     id: "NorthEast",
     title: "Northeast Regional Ijtema",
     date: "May 06",
     location: "Baitul Nûr - Albany, NY.",
+    register: "https://forms.gle/xeWyJtPd2A4KnwV98",
   },
   {
     id: "GreatLakes",
     title: "Great Lakes Regional Ijtema",
     date: "May 05-06",
     location: "Masjid Mahmood - Detroit, MI",
+    register: "https://forms.gle/LoLL2YFyyCGJXWBa7",
   },
   {
     id: "MidWest",
@@ -231,6 +237,13 @@ export default function MapPage() {
             {modalContent.url ? (
               <Button variant="primary" href={modalContent.url}>
                 Website
+              </Button>
+            ) : (
+              ""
+            )}
+            {modalContent.register ? (
+              <Button variant="outline-primary" href={modalContent.register}>
+                Register
               </Button>
             ) : (
               ""

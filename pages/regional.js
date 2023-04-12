@@ -45,6 +45,7 @@ const regionalIjtemaInfo = [
     title: "Gulf Regional Ijtema",
     date: "May 20 - 21",
     location: "Bait-ul-Ikram - Dallas, TX",
+    register: "https://khudd.am/gulfijtema",
   },
   {
     id: "SouthEast",

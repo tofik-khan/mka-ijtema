@@ -123,6 +123,20 @@ export default function Page() {
             </Link>
           </InfoButtonWrapper>
         </div>
+        <div className="py-5">
+          <Container>
+            <Row className="align-items-center">
+              <Col>
+                <h2>Join your brothers...</h2>
+                ...For a weekend of spiritually and physically refreshing
+                activities.
+              </Col>
+              <Col>
+                <Image src={"/nw-ijtema/flyer.jpeg"} width={400} height={500} />
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </main>
       <Footer />
     </>

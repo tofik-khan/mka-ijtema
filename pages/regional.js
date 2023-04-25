@@ -97,8 +97,9 @@ const regionalIjtemaInfo = [
   {
     id: "MidWest",
     title: "Midwest Regional Ijtema",
-    date: "May 20",
+    date: "May 19 - 20",
     location: "Baitul Jaamay - Chicago, IL",
+    register: "https://forms.gle/tHZZqMWqvNUkt7MQ6",
   },
 ];
 

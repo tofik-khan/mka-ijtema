@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Header from "../components/Header.js";
-import Nav from "../components/Nav.js";
+import Header from "../../components/Header.js";
+import Nav from "../../components/Nav.js";
 
 import {
   TYPE_INDEX,
@@ -14,16 +14,16 @@ import {
   KHUDDAM_TARGET,
   ANSAR_COUNT,
   GUEST_COUNT,
-} from "../components/const.js";
+} from "../../components/const.js";
 
-import StatsHero from "../components/StatsHero.js";
-import StatsOverview from "../components/StatsOverview.js";
-import StatsTopPerformers from "../components/StatsTopPerformers.js";
-import StatsOverviewPlaceholder from "../components/StatsOverviewPlaceholder.js";
-import StatsRegional from "../components/StatsRegional.js";
-import StatsTotal from "../components/StatsTotal.js";
+import StatsHero from "../../components/StatsHero.js";
+import StatsOverview from "../../components/StatsOverview.js";
+import StatsTopPerformers from "../../components/StatsTopPerformers.js";
+import StatsOverviewPlaceholder from "../../components/StatsOverviewPlaceholder.js";
+import StatsRegional from "../../components/StatsRegional.js";
+import StatsTotal from "../../components/StatsTotal.js";
 
-import Footer from "../components/Footer.js";
+import Footer from "../../components/Footer.js";
 
 export default function Stats() {
   const [formData, updateFormData] = useState([]);

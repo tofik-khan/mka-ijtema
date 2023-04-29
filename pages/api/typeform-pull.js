@@ -16,5 +16,19 @@ export default async function handler(req, res) {
       data = response.items.map((item) => item.answers);
     });
 
-  res.status(200).json({ data: data });
+  const attendanceObject = processData(data);
+  res.status(200).json(attendanceObject);
+}
+
+function processData(data) {
+  let obj = {};
+  data.map((entry) => {
+    const majlis = entry[1].text;
+    const aux = entry[0].text;
+
+    if (aux === "Khuddam") {
+      obj[majlis] = obj[majlis] + 1 || 1;
+    }
+  });
+  return obj;
 }

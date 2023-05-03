@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header.js";
 import Nav from "../components/Nav.js";
 
-import * as styles from "../styles/StatsHero.module.css";
+import * as styles from "../styles/Hero.module.css";
 
 import Image from "next/image";
 

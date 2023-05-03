@@ -1,4 +1,4 @@
-import * as styles from "../styles/StatsHero.module.css";
+import * as styles from "../styles/Hero.module.css";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

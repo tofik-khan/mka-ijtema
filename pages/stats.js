@@ -18,7 +18,7 @@ export default function Page({ data }) {
 
 export async function getServerSideProps() {
   let data = {};
-  await fetch(`http://localhost:3000/api/typeform-pull`)
+  await fetch(`${process.env.API_ROUTE}/api/typeform-pull`)
     .then((response) => response.json())
     .then((response) => (data = response));
   return { props: { data } };

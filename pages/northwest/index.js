@@ -125,6 +125,9 @@ export default function Page() {
               rel="noreferrer"
             >
               <Button variant="outline-warning btn-lg">Register Now!</Button>
+            </Link>{" "}
+            <Link href="/northwest/program">
+              <Button variant="outline-light btn-lg">Program</Button>
             </Link>
           </InfoButtonWrapper>
         </div>
@@ -161,7 +164,7 @@ export default function Page() {
               </Col>
               <Col xs={{ order: "first" }} md={4} className="py-2">
                 <H2 className="text-center pb-3">Ijtema Promo!</H2>
-                <YoutubeEmbed embedId="GlEklHSmSNs" width={400} height={400} />
+                <YoutubeEmbed embedId="B6JWlckiHWc" width={400} height={400} />
               </Col>
             </Row>
           </Container>

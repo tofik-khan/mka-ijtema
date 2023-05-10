@@ -13,6 +13,7 @@ import YoutubeEmbed from "../components/YoutubeEmbed.js";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import RegistrationCTA from "../components/RegistrationCTA.js";
 
 export default function Home() {
   return (
@@ -37,8 +38,9 @@ export default function Home() {
       <main className="mainContent">
         <Hero />
         <InfoContainer />
+        <RegistrationCTA />
         <Container>
-        <h2 className="my-5 text-center">Message from Our Imam!</h2>
+          <h2 className="my-5 text-center">Message from Our Imam!</h2>
           <Row className="justify-content-center">
             <Col xs={10} md={8}>
               <YoutubeEmbed embedId="EjOzV1tELbc" />

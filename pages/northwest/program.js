@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../partials/Header";
 import Footer from "../../partials/Footer";
 import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -24,8 +25,12 @@ export default function Page() {
               </thead>
               <tbody>
                 <tr>
-                  <td>1:00 PM</td>
-                  <td>Arrival at Ijtema Site (Zephyr Point)</td>
+                  <td>12:00 PM</td>
+                  <td>
+                    Arrival at Ijtema Site (Zephyr Point)
+                    <br />
+                    Lunch
+                  </td>
                 </tr>
                 <tr>
                   <td>1:30 PM</td>
@@ -37,11 +42,37 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>3:00 PM</td>
-                  <td>Motivational Session with Murabbi Sabahat Ali Sahib</td>
+                  <td>
+                    <Row>
+                      <Col>
+                        <strong>Khuddam:</strong>
+                        <br />
+                        Tehrik-e-Jadid Session with Jeopardy
+                      </Col>
+                      <Col>
+                        <strong>Atfal:</strong>
+                        <br />
+                        Today&apos;s Kids, Tomorrow&apos;s Leaders - Gameshow
+                      </Col>
+                    </Row>
+                  </td>
                 </tr>
                 <tr>
                   <td>4:00 PM</td>
-                  <td>Registration and Cabin Checkin</td>
+                  <td>
+                    <Row>
+                      <Col>
+                        <strong>Khuddam:</strong>
+                        <br />
+                        Registration &amp; Cabin Checkin
+                      </Col>
+                      <Col>
+                        <strong>Atfal:</strong>
+                        <br />
+                        Atfal Group Orientation &amp; Team Introductions
+                      </Col>
+                    </Row>
+                  </td>
                 </tr>
                 <tr>
                   <td>7:00 PM</td>
@@ -50,6 +81,27 @@ export default function Page() {
                 <tr>
                   <td>8:30 PM</td>
                   <td>Maghrib &amp; Isha</td>
+                </tr>
+                <tr>
+                  <td>9:00 PM</td>
+                  <td>
+                    <Row>
+                      <Col>
+                        <strong>Khuddam:</strong>
+                        <br />
+                        Fireside Chat
+                      </Col>
+                      <Col>
+                        <strong>Atfal:</strong>
+                        <br />
+                        Lights out
+                      </Col>
+                    </Row>
+                  </td>
+                </tr>
+                <tr>
+                  <td>10:30 PM</td>
+                  <td>End of Day 1</td>
                 </tr>
               </tbody>
             </table>
@@ -82,7 +134,7 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>5:00 AM</td>
-                  <td>Fajr Fit Hike</td>
+                  <td>Fajr Fit Hike - Great for all ages</td>
                 </tr>
                 <tr>
                   <td>8:00 AM</td>
@@ -90,7 +142,16 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>9:00 AM</td>
-                  <td>Sports Competitions</td>
+                  <td>
+                    Sports Competitions &amp; Paid Activities on site <br />
+                    <Link
+                      href="https://zephyrpoint.org/activities/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Learn about Activites at the site
+                    </Link>
+                  </td>
                 </tr>
                 <tr>
                   <td>12:00 PM</td>
@@ -102,11 +163,39 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>2:00 PM</td>
-                  <td>Review Of Religions: Existence Project</td>
+                  <td>
+                    <Row>
+                      <Col>
+                        <strong>Khuddam:</strong>
+                        <br />
+                        <strong>The Existence Project:</strong>
+                        <br />
+                        The Holy Qur&apos;an - Our Window Into Existence
+                      </Col>
+                      <Col>
+                        <strong>Atfal:</strong>
+                        <br />
+                        Scavenger Hunt - Exploring God&apos;s Creation
+                      </Col>
+                    </Row>
+                  </td>
                 </tr>
                 <tr>
                   <td>3:00 PM</td>
                   <td>Taleem Competitions</td>
+                </tr>
+                <tr>
+                  <td>5:00 PM</td>
+                  <td>
+                    <strong>
+                      Khilafat Day Program with Respected Ameer Sahib USA (via
+                      Zoom)
+                    </strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>6:15 PM</td>
+                  <td>Taleem Competitions - Cont.</td>
                 </tr>
                 <tr>
                   <td>7:00 PM</td>
@@ -118,7 +207,24 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>9:00 PM</td>
-                  <td>Fireside Chat</td>
+                  <td>
+                    <Row>
+                      <Col>
+                        <strong>Khuddam:</strong>
+                        <br />
+                        Fireside Chat
+                      </Col>
+                      <Col>
+                        <strong>Atfal:</strong>
+                        <br />
+                        Lights out
+                      </Col>
+                    </Row>
+                  </td>
+                </tr>
+                <tr>
+                  <td>10:30 PM</td>
+                  <td>End of Day 2</td>
                 </tr>
               </tbody>
             </table>
@@ -151,7 +257,7 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>5:00 AM</td>
-                  <td>Fajr Fit Hike</td>
+                  <td>Fajr Fit Hike - Great for all ages</td>
                 </tr>
                 <tr>
                   <td>8:00 AM</td>
@@ -159,15 +265,18 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>9:00 AM</td>
-                  <td>Closing Ceremony</td>
+                  <td>
+                    Closing Ceremony
+                    <br />
+                    Prize Distribution
+                    <br />
+                    Misali Khadim Award - Given to Khadim with most
+                    participation in Taleem Competitions
+                  </td>
                 </tr>
                 <tr>
                   <td>10:00 AM</td>
                   <td>Site &amp; Cabins Cleanup</td>
-                </tr>
-                <tr>
-                  <td>9:00 AM</td>
-                  <td>Closing Ceremony</td>
                 </tr>
                 <tr>
                   <td>11:00 AM</td>

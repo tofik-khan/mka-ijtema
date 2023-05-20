@@ -127,7 +127,7 @@ export default function Page() {
               <Button variant="outline-warning btn-lg">Register Now!</Button>
             </Link>{" "}
             <Link href="/northwest/program" target="_blank" rel="noreferrer">
-              <Button variant="outline-light btn-lg">Register Now!</Button>
+              <Button variant="outline-light btn-lg">Ijtema Program</Button>
             </Link>
           </InfoButtonWrapper>
         </div>

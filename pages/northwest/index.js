@@ -131,6 +131,95 @@ export default function Page() {
             </Link>
           </InfoButtonWrapper>
         </div>
+        <div className="text-center py-5 text-bg-light">
+          <Container>
+            <Row>
+              <H2>Ijtema Resources</H2>
+            </Row>
+            <Row className="justify-content-center py-3">
+              <Col md={4}>
+                <Link
+                  href="https://forms.gle/oB64SFNndtvu9t1L7"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Sign up for Taleem Competitions
+                </Link>
+              </Col>
+              <Col md={4}>
+                <Link
+                  href="/northwest/things-to-bring"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Things to Bring
+                </Link>
+              </Col>
+            </Row>
+            <Row className="justify-content-center py-3">
+              <Col md={4}>
+                <Link
+                  href="https://zephyrpoint.org/wp-content/uploads/2020/02/Zephyr-Point-Property-Map.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Site Map
+                </Link>
+              </Col>
+              <Col md={4}>
+                <Link
+                  href="https://zephyrpoint.org/wp-content/uploads/2021/04/ZP-Facility-Guidelines.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Site Rules &amp; Guidelines
+                </Link>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="text-center py-5">
+          <Container>
+            <Row>
+              <H2>Key Contacts</H2>
+            </Row>
+            <Row className="justify-content-center">
+              <Col md={10}>
+                <table className="table table-hover text-center">
+                  <thead>
+                    <tr>
+                      <th className="col-sm-3 col-md-2">Department</th>
+                      <th>Name</th>
+                      <th>Phone Number</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Nazim-e-Ala</td>
+                      <td>Tofik Khan</td>
+                      <td>(360) 921-3387</td>
+                    </tr>
+                    <tr>
+                      <td>Regional Qaid</td>
+                      <td>Owais Malik</td>
+                      <td>(425) 241-4382</td>
+                    </tr>
+                    <tr>
+                      <td>Nazim Atfal</td>
+                      <td>Hamza Hashmi</td>
+                      <td>(951) 880-8676</td>
+                    </tr>
+                    <tr>
+                      <td>Accommodations</td>
+                      <td>Faaiz Ahmad</td>
+                      <td>(708) 261-9587</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </Col>
+            </Row>
+          </Container>
+        </div>
         <div className="py-5">
           <Container>
             <Row className="align-items-center">

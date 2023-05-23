@@ -3,6 +3,7 @@ import Header from "../../partials/Header";
 import Footer from "../../partials/Footer";
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -96,7 +97,7 @@ export default function Page() {
                       <Col>
                         <strong>Khuddam:</strong>
                         <br />
-                        Paid Activities on Site
+                        Site Exploring and Paid Activities
                       </Col>
                       <Col>
                         <strong>Atfal:</strong>
@@ -243,6 +244,12 @@ export default function Page() {
                     <Row>
                       <Col>
                         <strong>Khuddam:</strong>
+                        <br />
+                        <Image
+                          src={"/nw-ijtema/existence-project-logo.jpeg"}
+                          width={200}
+                          height={200}
+                        />
                         <br />
                         <strong>The Existence Project:</strong>
                         <br />

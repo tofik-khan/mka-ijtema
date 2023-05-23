@@ -34,11 +34,19 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>1:30 PM</td>
-                  <td>Jumma Prayers</td>
+                  <td>
+                    Jumma Prayers
+                    <br />
+                    <em>Fallen Leaf </em>
+                  </td>
                 </tr>
                 <tr>
                   <td>2:00 PM</td>
-                  <td>Opening Ceremony</td>
+                  <td>
+                    Opening Ceremony
+                    <br />
+                    <em>Fallen Leaf </em>
+                  </td>
                 </tr>
                 <tr>
                   <td>3:00 PM</td>
@@ -48,11 +56,14 @@ export default function Page() {
                         <strong>Khuddam:</strong>
                         <br />
                         Tehrik-e-Jadid Session with Jeopardy
+                        <br />
+                        <em>Fallen Leaf </em>
                       </Col>
                       <Col>
                         <strong>Atfal:</strong>
                         <br />
-                        Today&apos;s Kids, Tomorrow&apos;s Leaders - Gameshow
+                        Group Orientation and Team Leads Introductions <br />
+                        Team Activities
                       </Col>
                     </Row>
                   </td>
@@ -65,22 +76,53 @@ export default function Page() {
                         <strong>Khuddam:</strong>
                         <br />
                         Registration &amp; Cabin Checkin
+                        <br />
+                        <em>Fallen Leaf </em>
                       </Col>
                       <Col>
                         <strong>Atfal:</strong>
                         <br />
-                        Atfal Group Orientation &amp; Team Introductions
+                        Today&apos;s Kids, Tomorrow&apos;s Leaders - Gameshow
+                        <br />
+                        <em>Inspiration Point </em>
+                      </Col>
+                    </Row>
+                  </td>
+                </tr>
+                <tr>
+                  <td>5:00 PM</td>
+                  <td>
+                    <Row>
+                      <Col>
+                        <strong>Khuddam:</strong>
+                        <br />
+                        Paid Activities on Site
+                      </Col>
+                      <Col>
+                        <strong>Atfal:</strong>
+                        <br />
+                        Capture the Flag
+                        <br />
+                        <em>Inspiration Point </em>
                       </Col>
                     </Row>
                   </td>
                 </tr>
                 <tr>
                   <td>7:00 PM</td>
-                  <td>Dinner</td>
+                  <td>
+                    Dinner
+                    <br />
+                    <em>Inspiration Point </em>
+                  </td>
                 </tr>
                 <tr>
                   <td>8:30 PM</td>
-                  <td>Maghrib &amp; Isha</td>
+                  <td>
+                    Maghrib &amp; Isha
+                    <br />
+                    <em>Fallen Leaf</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>9:00 PM</td>
@@ -90,6 +132,8 @@ export default function Page() {
                         <strong>Khuddam:</strong>
                         <br />
                         Fireside Chat
+                        <br />
+                        <em>Ampitheater</em>
                       </Col>
                       <Col>
                         <strong>Atfal:</strong>
@@ -101,7 +145,10 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>10:30 PM</td>
-                  <td>End of Day 1</td>
+                  <td>
+                    End of Day 1 <br />
+                    <strong>(Quiet Hours 10:30PM - 7:30AM)</strong>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -126,11 +173,19 @@ export default function Page() {
               <tbody>
                 <tr>
                   <td>3:30 AM</td>
-                  <td>Tahajjud</td>
+                  <td>
+                    Tahajjud
+                    <br />
+                    <em>Fallen Leaf</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>4:20 AM</td>
-                  <td>Fajr Prayers</td>
+                  <td>
+                    Fajr Prayers
+                    <br />
+                    <em>Fallen Leaf</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>5:00 AM</td>
@@ -138,12 +193,25 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>8:00 AM</td>
-                  <td>Breakfast</td>
+                  <td>
+                    Breakfast
+                    <br />
+                    <em>Inspiration Point</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>9:00 AM</td>
                   <td>
-                    Sports Competitions &amp; Paid Activities on site <br />
+                    Sports Competitions
+                    <ul style={{ maxWidth: "200px", margin: "auto" }}>
+                      <li>Tug-of-War</li>
+                      <li>Kabaddi</li>
+                      <li>Strongman</li>
+                      <li>Arm Wrestling</li>
+                      <li>VolleyBall</li>
+                      <li>Cricket</li>
+                    </ul>
+                    &amp; Paid Activities on site <br />
                     <Link
                       href="https://zephyrpoint.org/activities/"
                       target="_blank"
@@ -155,11 +223,19 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>12:00 PM</td>
-                  <td>Lunch</td>
+                  <td>
+                    Lunch
+                    <br />
+                    <em>Inspiration Point</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>1:30 PM</td>
-                  <td>Zuhr &amp; Asr</td>
+                  <td>
+                    Zuhr &amp; Asr
+                    <br />
+                    <em>Fallen Leaf</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>2:00 PM</td>
@@ -175,7 +251,7 @@ export default function Page() {
                       <Col>
                         <strong>Atfal:</strong>
                         <br />
-                        Scavenger Hunt - Exploring God&apos;s Creation
+                        Taleem Competitions start
                       </Col>
                     </Row>
                   </td>
@@ -191,19 +267,33 @@ export default function Page() {
                       Khilafat Day Program with Respected Ameer Sahib USA (via
                       Zoom)
                     </strong>
+                    <br />
+                    <em>Inspiration Point</em>
                   </td>
                 </tr>
                 <tr>
                   <td>6:15 PM</td>
-                  <td>Taleem Competitions - Cont.</td>
+                  <td>
+                    Group Picture
+                    <br />
+                    Atfal Group Picture
+                  </td>
                 </tr>
                 <tr>
                   <td>7:00 PM</td>
-                  <td>Dinner</td>
+                  <td>
+                    Dinner
+                    <br />
+                    <em>Inspiration Point</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>8:30 PM</td>
-                  <td>Maghrib &amp; Isha</td>
+                  <td>
+                    Maghrib &amp; Isha
+                    <br />
+                    <em>Fallen Leaf</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>9:00 PM</td>
@@ -213,6 +303,8 @@ export default function Page() {
                         <strong>Khuddam:</strong>
                         <br />
                         Fireside Chat
+                        <br />
+                        <em>Ampitheater</em>
                       </Col>
                       <Col>
                         <strong>Atfal:</strong>
@@ -224,7 +316,10 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>10:30 PM</td>
-                  <td>End of Day 2</td>
+                  <td>
+                    End of Day 2 <br />
+                    <strong>(Quiet Hours 10:30PM - 7:30AM)</strong>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -249,11 +344,19 @@ export default function Page() {
               <tbody>
                 <tr>
                   <td>3:30 AM</td>
-                  <td>Tahajjud</td>
+                  <td>
+                    Tahajjud
+                    <br />
+                    <em>Fallen Leaf</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>4:20 AM</td>
-                  <td>Fajr Prayers</td>
+                  <td>
+                    Fajr Prayers
+                    <br />
+                    <em>Fallen Leaf</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>5:00 AM</td>
@@ -261,7 +364,11 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>8:00 AM</td>
-                  <td>Breakfast</td>
+                  <td>
+                    Breakfast
+                    <br />
+                    <em>Inspiration Point</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>9:00 AM</td>
@@ -270,13 +377,22 @@ export default function Page() {
                     <br />
                     Prize Distribution
                     <br />
-                    Misali Khadim Award - Given to Khadim with most
-                    participation in Taleem Competitions
+                    <strong>Misali Khadim Award</strong> - Given to Khadim with
+                    most participation &amp; wins in Taleem Competitions
                   </td>
                 </tr>
                 <tr>
                   <td>10:00 AM</td>
-                  <td>Site &amp; Cabins Cleanup</td>
+                  <td>
+                    Site &amp; Cabins Cleanup <br />
+                    <Link
+                      href="https://zephyrpoint.org/wp-content/uploads/2020/02/Check-Out-Procedures.pdf"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Checkout &amp; Cleaning Guide
+                    </Link>
+                  </td>
                 </tr>
                 <tr>
                   <td>11:00 AM</td>
@@ -284,7 +400,11 @@ export default function Page() {
                 </tr>
                 <tr>
                   <td>1:30 PM</td>
-                  <td>Zuhr &amp; Asr</td>
+                  <td>
+                    Zuhr &amp; Asr
+                    <br />
+                    <em>Outdoors</em>
+                  </td>
                 </tr>
                 <tr>
                   <td>2:00 PM</td>

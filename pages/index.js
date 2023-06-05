@@ -14,8 +14,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import RegistrationCTA from "../components/RegistrationCTA.js";
-import { Button } from "react-bootstrap";
-import Link from "next/link";
 
 export default function Home() {
   return (

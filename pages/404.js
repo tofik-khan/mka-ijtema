@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 
-import Nav from "../components/Nav.js";
+import Nav from "../partials/Nav.js";
 import PageNotFound from "../components/PageNotFound.js";
 import Footer from "../components/Footer.js";
 

@@ -18,14 +18,7 @@ export default function RegistrationCTA() {
           target="_blank"
           rel="noreferrer"
         >
-          <Button variant="outline-warning btn-lg">Register Now!</Button>
-        </Link>{" "}
-        <Link
-          href="https://docs.google.com/forms/d/e/1FAIpQLSexLqOjLtP0hc7xQW7-T4hamwd-UcLX7Bzz8XteTXu67MeFuQ/viewform"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Button variant="outline-light btn-lg">Travel Subsidy</Button>
+          <Button variant="warning btn-lg">Register Now!</Button>
         </Link>
       </div>
     </div>

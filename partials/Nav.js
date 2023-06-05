@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
 import Hamburger from "hamburger-react";
 import Container from "react-bootstrap/Container";
@@ -19,20 +20,33 @@ export default function Navigation() {
         </Navbar.Toggle>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
+            <NavDropdown title="Information" id="nav-info-dropdown">
+              <NavDropdown.Item href="https://form.typeform.com/to/RIIZNR2Z">
+                Registration
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/accommodation">
+                Accommodations
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/transport">Transport</NavDropdown.Item>
+              <NavDropdown.Item href="https://docs.google.com/document/d/1REWCBlnDkhb-tD6Rqxy5h_LKL-vt5S8ExnXmDGOfb1g/edit#heading=h.t1zqufmn5l18">
+                FAQs
+              </NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link
-              href="https://www.atfalusa.org/ijtema/"
+              href="https://docs.google.com/spreadsheets/d/1U-l8Q9LVjHhBXYCGnAWGJkxgEToy9aFtMWfRJN_Mehk/edit?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
-              Atfal Syllabus
+              Program
             </Nav.Link>
-            <Nav.Link
-              href="https://khudd.am/syllabus2023"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Khuddam Syllabus
-            </Nav.Link>
+            <NavDropdown title="Syllabus" id="nav-info-dropdown">
+              <NavDropdown.Item href="https://www.atfalusa.org/ijtema/">
+                Atfal Syllabus
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://khudd.am/syllabus2023">
+                Khuddam Syllabus
+              </NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>

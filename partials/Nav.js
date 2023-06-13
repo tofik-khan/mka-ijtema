@@ -39,6 +39,9 @@ export default function Navigation() {
             >
               Program
             </Nav.Link>
+            <Nav.Link href="/sports" target="_blank" rel="noreferrer">
+              Sports
+            </Nav.Link>
             <NavDropdown title="Syllabus" id="nav-info-dropdown">
               <NavDropdown.Item href="https://www.atfalusa.org/ijtema/">
                 Atfal Syllabus

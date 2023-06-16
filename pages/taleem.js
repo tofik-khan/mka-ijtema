@@ -44,7 +44,7 @@ export default function Page() {
                 you&apos;re not participating. MKA USA is introducing Live
                 Audience Rating during the Taleem Finals on Sunday! Instead of
                 being on the sidelines, you will get a chance to be a part of
-                the action! For three events, Nazam (Urdu Poem), English Poem
+                the action! For three events, Nazm (Urdu Poem), English Speech
                 and Impromptu Speech, you will get a chance to rate the
                 participant using your smartphone. The audience rating will
                 contribute towards the competitors final score.

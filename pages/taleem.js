@@ -1,7 +1,7 @@
 import React from "react";
 
 import Nav from "../partials/Nav.js";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import Link from "next/link";
 import Head from "next/head";
 import Footer from "../components/Footer";
@@ -32,6 +32,25 @@ export default function Page() {
         <Container className="py-3">
           <Row>
             <Col>
+              <p>
+                <strong>Ijtema Syllabus</strong>
+              </p>
+              <Link
+                href="https://khudd.am/syllabus2023"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button variant="outline-warning">Dark Mode</Button>
+              </Link>{" "}
+              <Link
+                href="https://khudd.am/syllabus2023light"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button variant="warning">Printer Friendly - Light Mode</Button>
+              </Link>
+              <br />
+              <br />
               <p>
                 <strong>Live Audience Voting at Ijtema</strong>
               </p>

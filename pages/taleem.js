@@ -3,7 +3,6 @@ import React from "react";
 import Nav from "../partials/Nav.js";
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
-import { Button } from "react-bootstrap";
 import Head from "next/head";
 import Footer from "../components/Footer";
 
@@ -41,14 +40,14 @@ export default function Page() {
                 incredible talent from across the country. Our khuddam go head
                 to head in competition, vying with one another in good. This
                 year at the National Ijtema 2023, you will get an opportunity to
-                be engaged during the Taleem Competitions finals even if you're
-                not participating. MKA USA is introducing Live Audience Rating
-                during the Taleem Finals on Sunday! Instead of being on the
-                sidelines, you will get a chance to be a part of the action! For
-                three events, Nazam (Urdu Poem), English Poem and Impromptu
-                Speech, you will get a chance to rate the participant using your
-                smartphone. The audience rating will contribute towards the
-                competitors final score.
+                be engaged during the Taleem Competitions finals even if
+                you&apos;re not participating. MKA USA is introducing Live
+                Audience Rating during the Taleem Finals on Sunday! Instead of
+                being on the sidelines, you will get a chance to be a part of
+                the action! For three events, Nazam (Urdu Poem), English Poem
+                and Impromptu Speech, you will get a chance to rate the
+                participant using your smartphone. The audience rating will
+                contribute towards the competitors final score.
               </p>
               <p>
                 <strong>
@@ -58,20 +57,20 @@ export default function Page() {
               <p>
                 To give an opportunity to our young Khuddam, we added two age
                 groups for some key Taleem competitions this year: Tilawat,
-                Nazam (Urdu Poem), English Speech, Urdu Speech. It's important
-                to make sure you have 3 names for each of these events from your
-                Region filled out. If you were18 on November 1st, 2022, you will
-                be a part of the 15-18 group even if you turned 19 during the
-                Khuddam year.
+                Nazam (Urdu Poem), English Speech, Urdu Speech. It&apos;s
+                important to make sure you have 3 names for each of these events
+                from your Region filled out. If you were18 on November 1st,
+                2022, you will be a part of the 15-18 group even if you turned
+                19 during the Khuddam year.
               </p>
               <p>
                 <strong>NEW: Video Competition</strong>
               </p>
               <p>
                 We are calling all aspiring content creators to Showcase your
-                talent! The competition is to make a 2-3 min video about 'The
-                Holy Quran - Our Guiding Light' with the help of any software of
-                your liking. The videos can be uploaded to:{" "}
+                talent! The competition is to make a 2-3 min video about
+                &apos;The Holy Quran - Our Guiding Light&apos; with the help of
+                any software of your liking. The videos can be uploaded to:{" "}
                 <Link href="https://khudd.am/videocompetition2023">
                   Video Upload Dropbox
                 </Link>{" "}
@@ -84,11 +83,11 @@ export default function Page() {
                 <strong>NEW! Regional Team Presentation Competition</strong>
               </p>
               <p>
-                This year we're introducing new competition. A team of up to
-                three Khuddam from each region can take part in the competition;
-                at least one will deliver the presentation, while the other
-                members can control the presentation. The whole region can help
-                the team to prepare the presentation. Topics:
+                This year we&apos;re introducing new competition. A team of up
+                to three Khuddam from each region can take part in the
+                competition; at least one will deliver the presentation, while
+                the other members can control the presentation. The whole region
+                can help the team to prepare the presentation. Topics:
                 <ol>
                   <li>Preservation of the Holy Quran</li>
                   <li>Refuting the Theory of Quranic Abrogation</li>
@@ -114,8 +113,8 @@ export default function Page() {
                 (aba) on the Holy Quran this year and the book of the year,
                 Introduction to the Study of the Holy Quran. Khuddam are
                 encouraged to rewatch and re-read through these inspirational
-                sermons and complete the book reading. Here's the syllabus in a
-                convenient format:
+                sermons and complete the book reading. Here&apos;s the syllabus
+                in a convenient format:
                 <ul>
                   <li>
                     Book of the Year - Introduction to the Study of the Holy
@@ -181,9 +180,9 @@ export default function Page() {
                 If a khadim missed the Regional Ijtema due to a genuine reason,
                 we will let him participate in the Taleem Qualifiers being held
                 on Sunday. Please see the schedule for the exact time. Just show
-                up on time. There's no sign up required. Please note that the
-                Hifz competitions are open to all so you don't need to be
-                qualified to participate in those.
+                up on time. There&apos;s no sign up required. Please note that
+                the Hifz competitions are open to all so you don&apos;t need to
+                be qualified to participate in those.
               </p>
             </Col>
           </Row>

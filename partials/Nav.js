@@ -39,6 +39,9 @@ export default function Navigation() {
             >
               Program
             </Nav.Link>
+            <Nav.Link href="/taleem" target="_blank" rel="noreferrer">
+              Taleem
+            </Nav.Link>
             <Nav.Link href="/sports" target="_blank" rel="noreferrer">
               Sports
             </Nav.Link>

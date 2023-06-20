@@ -198,7 +198,7 @@ export default function Page() {
               <p>
                 If a khadim missed the Regional Ijtema due to a genuine reason,
                 we will let him participate in the Taleem Qualifiers being held
-                on Sunday. Please see the schedule for the exact time. Just show
+                on Friday. Please see the schedule for the exact time. Just show
                 up on time. There&apos;s no sign up required. Please note that
                 the Hifz competitions are open to all so you don&apos;t need to
                 be qualified to participate in those.

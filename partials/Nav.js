@@ -31,6 +31,7 @@ export default function Navigation() {
               <NavDropdown.Item href="https://docs.google.com/document/d/1REWCBlnDkhb-tD6Rqxy5h_LKL-vt5S8ExnXmDGOfb1g/edit#heading=h.t1zqufmn5l18">
                 FAQs
               </NavDropdown.Item>
+              <NavDropdown.Item href="/tentcity">Tent City</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link
               href="https://docs.google.com/spreadsheets/d/1U-l8Q9LVjHhBXYCGnAWGJkxgEToy9aFtMWfRJN_Mehk/edit?usp=sharing"

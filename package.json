@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@typeform/api-client": "^1.7.0",
+    "@typeform/api-client": "^1.15.2",
     "bootstrap": "^5.2.3",
     "chart.js": "^3.9.1",
-    "express": "^4.18.1",
+    "express": "^4.22.0",
     "googleapis": "^104.0.0",
     "hamburger-react": "^2.5.0",
     "mapbox-gl": "^2.11.1",
